@@ -1,0 +1,66 @@
+.mf-elementor-process {
+	.process-content {
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding-bottom: 95px;
+
+		&:last-child {
+			.process-step {
+				&:before {
+					display: none;
+				}
+			}
+		}
+
+		&:nth-child(odd) {
+			flex-direction: row-reverse;
+		}
+	}
+
+	h3 {
+		font-size: 22px;
+		font-weight: 600;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	.process-image {
+		text-align: center;
+	}
+
+	.process-step {
+		text-align: center;
+		position: static;
+
+		.step {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			color: #000;
+			font-size: 48px;
+			width: 100px;
+			height: 100px;
+			background-color: #fff;
+			border-radius: 50%;
+			border: 2px solid @primary-color;
+			z-index: 9;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&:before {
+			content: '';
+			width: 2px;
+			height: 100%;
+			background-color: @primary-color;
+			position: absolute;
+			top: 5px;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 4;
+		}
+	}
+}

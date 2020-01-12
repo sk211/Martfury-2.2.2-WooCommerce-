@@ -1,0 +1,1273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Woocommerce Compare\n"
+"POT-Creation-Date: 2018-11-28 16:32+0100\n"
+"PO-Revision-Date: 2018-11-28 16:32+0100\n"
+"Last-Translator: Nicola Mustone <mail@nicolamustone.it>\n"
+"Language-Team: Your Inspiration Themes <support@yithemes.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.yith-woocompare-admin.php:119
+#: includes/class.yith-woocompare-admin.php:143
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/class.yith-woocompare-admin.php:121
+msgid "License"
+msgstr ""
+
+#: includes/class.yith-woocompare-admin.php:147
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: includes/class.yith-woocompare-admin.php:153
+#: includes/class.yith-woocompare-admin.php:154
+#: includes/class.yith-woocompare-frontend.php:505
+#: plugin-options/general-options.php:41 plugin-options/general-options.php:42
+#: widgets/class.yith-woocompare-widget.php:51
+msgid "Compare"
+msgstr "Confronta"
+
+#: includes/class.yith-woocompare-admin.php:241
+msgid "YITH WooCommerce Compare Activated"
+msgstr "YITH WooCommerce Compare attivato"
+
+#: includes/class.yith-woocompare-admin.php:242
+#, php-format
+msgid ""
+"In the YIT Plugin tab you can find the YITH WooCommerce Compare options. "
+"With this menu, you can access to all the settings of our plugins that you "
+"have activated. YITH WooCommerce Compare is available in an outstanding "
+"PREMIUM version with many new options, <a href=\"%s\">discover it now</a>."
+msgstr ""
+"Nella scheda YIT Plugins puoi trovare tutte le opzioni di YITH WooCommerce "
+"Compare. Da questo menù potrai accedere a tutte le impostazioni dei plugin "
+"YITH installati. È disponibile un'eccezionale versione PREMIUM di YITH "
+"WooCommerce Compare con molte nuove opzioni, <a href=\"%s\">scoprila subito</"
+"a>."
+
+#: includes/class.yith-woocompare-admin.php:253
+msgid "YITH WooCommerce Compare Updated"
+msgstr "YITH WooCommerce Compare aggiornato"
+
+#: includes/class.yith-woocompare-admin.php:254
+#, php-format
+msgid ""
+"From now on, you can find all the options of YITH WooCommerce Compare under "
+"YIT Plugin -> Compare instead of WooCommerce -> Settings -> Compare, as in "
+"the previous version. When one of our plugins is updated, a new voice will "
+"be added to this menu. YITH WooCommerce Compare has been updated with new "
+"available options, <a href=\"%s\">discover the PREMIUM version.</a>"
+msgstr ""
+"Da questo momento, puoi trovare tutte le opzioni di YITH WooCommerce Compare "
+"in YIT Plugins > Compare invece che come era nella versione precedente in "
+"WooCommerce > Impostazioni > Compare. Quando uno dei nostri plugin viene "
+"aggiornato, sarà aggiunta una nuova voce di a questo menù. YITH WooCommerce "
+"Compare è stato aggiornato includendo nuove opzioni, <a href=\"%s\">scopri "
+"la versione PREMIUM</a>."
+
+#: includes/class.yith-woocompare-admin.php:398
+msgid "Do you want to hard crop the image?"
+msgstr "Vuoi ritagliare questa immagine?"
+
+#: includes/class.yith-woocompare-frontend.php:223
+msgid "Added"
+msgstr "Aggiunto"
+
+#: includes/class.yith-woocompare-frontend.php:224 templates/compare.php:50
+msgid "Product Comparison"
+msgstr "Comparazione Prodotto"
+
+#: includes/class.yith-woocompare-frontend.php:229
+msgid "Close"
+msgstr "Chiudi"
+
+#: includes/class.yith-woocompare-frontend.php:384
+msgid "In stock"
+msgstr "In stock"
+
+#: includes/class.yith-woocompare-frontend.php:696
+msgid "No products to compare"
+msgstr "Nessun prodotto da comparare"
+
+#: includes/class.yith-woocompare-frontend.php:709 templates/compare.php:117
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: includes/class.yith-woocompare-helper.php:46
+msgid "Image"
+msgstr "Immagine"
+
+#: includes/class.yith-woocompare-helper.php:47
+#: widgets/class.yith-woocompare-widget.php:68
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/class.yith-woocompare-helper.php:48
+msgid "Price"
+msgstr "Prezzo"
+
+#: includes/class.yith-woocompare-helper.php:49
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: includes/class.yith-woocompare-helper.php:50
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/class.yith-woocompare-helper.php:51
+msgid "Sku"
+msgstr ""
+
+#: includes/class.yith-woocompare-helper.php:52
+msgid "Availability"
+msgstr "Disponibilità"
+
+#: includes/class.yith-woocompare-helper.php:53
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/class.yith-woocompare-helper.php:54
+msgid "Dimensions"
+msgstr "Dimensioni"
+
+#: init.php:42
+msgid ""
+"YITH WooCommerce Compare is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Compare è abilitato ma non in funzione. Devi aver "
+"installato WooCommerce perché questo possa funzionare correttamente."
+
+#: init.php:50
+msgid ""
+"You can't activate the free version of YITH WooCommerce Compare while you "
+"are using the premium one."
+msgstr ""
+"Non è possibile attrivare la versione free di YITH WooCommerce Compare se "
+"stai già utilizzando la premium."
+
+#: plugin-options/general-options.php:17
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: plugin-options/general-options.php:24
+msgid "Link or Button"
+msgstr "Collegamento o pulsante"
+
+#: plugin-options/general-options.php:25
+msgid "Choose if you want to use a link or a button for the comepare actions."
+msgstr ""
+"Scegli se utilizzare un linko un pulsante per confrontare i tuoi prodotti."
+
+#: plugin-options/general-options.php:32
+msgid "Link"
+msgstr "Collegamento"
+
+#: plugin-options/general-options.php:33
+msgid "Button"
+msgstr "Pulsante"
+
+#: plugin-options/general-options.php:38
+msgid "Link/Button text"
+msgstr "Testo collegamento/pulsante"
+
+#: plugin-options/general-options.php:39
+msgid "Type the text to use for the button or the link of the compare."
+msgstr ""
+"Inserisci il testo da utilizzare per il pulsante o il collegamento che ti "
+"permetterà di confrontare i prodotti."
+
+#: plugin-options/general-options.php:47
+msgid "Show button in single product page"
+msgstr "Mostra pulsante nella pagina dettaglio prodotto"
+
+#: plugin-options/general-options.php:48
+msgid "Say if you want to show the button in the single product page."
+msgstr ""
+"Scegli se vuoi mostrare il pulsante nella pagina dettaglio del prodotto."
+
+#: plugin-options/general-options.php:56
+msgid "Show button in products list"
+msgstr "Mostra pulsante nella lista prodotti"
+
+#: plugin-options/general-options.php:57
+msgid "Say if you want to show the button in the products list."
+msgstr "Imposta se vuoi mostrare il pulsante nella lista prodotti."
+
+#: plugin-options/general-options.php:65
+msgid "Open automatically lightbox"
+msgstr "Apri lightbox automaticamente"
+
+#: plugin-options/general-options.php:66
+msgid "Open link after click into \"Compare\" button\"."
+msgstr "Apri pagina dopo aver cliccato sul pulsante \"Confronta\"."
+
+#: plugin-options/general-options.php:79
+msgid "Table Settings"
+msgstr "Impostazioni tabella."
+
+#: plugin-options/general-options.php:86
+msgid "Table title"
+msgstr "Titolo tabella"
+
+#: plugin-options/general-options.php:87
+msgid "Type the text to use for the table title."
+msgstr "Inserisci il testo da utilizzare come titolo della tabella."
+
+#: plugin-options/general-options.php:89 plugin-options/general-options.php:90
+msgid "Compare products"
+msgstr "Confronta prodotti"
+
+#: plugin-options/general-options.php:95
+msgid "Fields to show"
+msgstr "Campi da mostrare"
+
+#: plugin-options/general-options.php:96
+msgid ""
+"Select the fields to show in the comparison table and order them by "
+"drag&drop (are included also the woocommerce attributes)"
+msgstr ""
+"Seleziona i campi da mostrare nella tabella di comparazione e ordinali "
+"attraverso il drag&drop (sono inclusi anche gli attributi di woocommerce)"
+
+#: plugin-options/general-options.php:104
+msgid "Repeat \"Price\" field"
+msgstr "Ripeti campo \"Prezzo\""
+
+#: plugin-options/general-options.php:105
+msgid "Repeat the \"Price\" field at the end of the table"
+msgstr "Ripeti il campo \"Prezzo\" alla fine di ogni tabella"
+
+#: plugin-options/general-options.php:113
+msgid "Repeat \"Add to cart\" field"
+msgstr "Ripeti campo \"Aggiungi al carrello\""
+
+#: plugin-options/general-options.php:114
+msgid "Repeat the \"Add to cart\" field at the end of the table"
+msgstr "Ripeti il campo \"Aggiungi al carrello\" alla fine di ogni tabella"
+
+#: plugin-options/general-options.php:122
+msgid "Image size"
+msgstr "Dimensione immagine"
+
+#: plugin-options/general-options.php:123
+msgid "Set the size for the images"
+msgstr "Imposta la dimensione per le immagini"
+
+#: templates/admin/premium.php:240 templates/admin/premium.php:446
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Compare%2$s to "
+"benefit from all features!"
+msgstr ""
+"Aggiorna alla %1$sversione premium%2$s di %1$sYITH WooCommerce Compare%2$s "
+"per usufruire di tutte le sue funzionalità!"
+
+#: templates/admin/premium.php:243 templates/admin/premium.php:449
+msgid "UPGRADE"
+msgstr "AGGIORNA"
+
+#: templates/admin/premium.php:244 templates/admin/premium.php:450
+msgid "to the premium version"
+msgstr "alla versione premium"
+
+#: templates/admin/premium.php:250
+msgid "Premium Features"
+msgstr "Funzionalità premium"
+
+#: templates/admin/premium.php:258
+msgid "A DEDICATED PAGE"
+msgstr "UNA PAGINA DEDICATA"
+
+#: templates/admin/premium.php:261
+#, php-format
+msgid ""
+"Don't you want to compare your products in a modal window anymore?%3$sWith "
+"the premium version of %1$sYITH WooCommerce Compare%2$s, a new page will be "
+"created automatically in your site and, adding it among the menu entries, "
+"you will be able to give to your users the chance to access it easily "
+"whenever they want."
+msgstr ""
+"Sei stufo di dover mostrare i prodotti messi a confronto all’interno di una "
+"finestra modale? %3$sCon %1$sYITH WooCommerce Compare premium%2$s verrà "
+"creata automaticamente una nuova pagina all’interno del tuo sito e, "
+"aggiungendola tra le voci di menu, potrai dare ai tuoi utenti la possibilità "
+"di accedervi in qualsiasi momento e in maniera agevole."
+
+#: templates/admin/premium.php:271
+msgid "CATEGORY COMPARATION"
+msgstr "CONFRONTO PER CATEGORIA"
+
+#: templates/admin/premium.php:274
+#, php-format
+msgid ""
+"People are often confused by finding products of different categories in the "
+"comparison table, creating difficulties in comparing the products they are "
+"interested into.The %1$s\"Compare by category\"%2$s option exists for this "
+"need: you will be able to separate the products in the table by category "
+"affinity."
+msgstr ""
+"Trovare all’interno della tabella comparativa prodotti di tipologia diversa "
+"spesso confonde gli utenti, generando difficoltà nel confrontare due "
+"prodotti a cui sono interessati. L’opzione %1$s“Compare by category”%2$s "
+"nasce proprio per venire incontro a questa esigenza, in modo tale da poter "
+"suddividere i prodotti presenti nella tabella a seconda della categoria di "
+"appartenenza."
+
+#: templates/admin/premium.php:290
+msgid "CATEGORY EXCLUSION "
+msgstr "ESCLUSIONE CATEGORIE"
+
+#: templates/admin/premium.php:293
+#, php-format
+msgid ""
+"In your shop there may be product categories you don't want to be affected "
+"by the plugin features, deleting the comparison button for them. The premium "
+"version of the plugin offers this too.%3$sAnd there's more! Activating the "
+"%1$s\"Reverse exclusion list\"%2$s option, you can also invert the behavior "
+"of the feature, allowing the comparison only to those products of the "
+"selected categories."
+msgstr ""
+"Nel tuo shop potrebbero esistere categorie di prodotto per cui non vuoi "
+"abilitare le funzionalità del plugin e dalle quali, quindi, vorresti "
+"rimuovere il pulsante di comparazion. La versione premium del plugin ha "
+"pensato anche a questo.%3$sMa non finisce qui. Attivando l’opzione "
+"%1$s“Reverse exclusion list”%2$s, puoi invertire la logica di questo "
+"comportamento, consentendo il confronto solo sui prodotti associati con le "
+"categorie selezionate."
+
+#: templates/admin/premium.php:303
+msgid "TABLE IMAGE"
+msgstr "IMMAGINE TABELLA"
+
+#: templates/admin/premium.php:306
+#, php-format
+msgid ""
+"Give a personal touch to the %1$scomparison table%2$s your users will see. "
+"Select an image, upload it from the option panel and show it ahead of the "
+"table to your users. "
+msgstr ""
+"Da’ un tocco in più alla %1$stabella di comparazione%2$s che viene "
+"visualizzata dagli utenti. Seleziona un’immagine, effettua l’upload dal "
+"pannello opzioni e mostrala agli utenti in testa alla tabella."
+
+#: templates/admin/premium.php:322
+msgid "DYNAMIC FIELDS"
+msgstr "CAMPI DINAMICI"
+
+#: templates/admin/premium.php:325
+#, php-format
+msgid ""
+"With this precious feature, you will be able to show in the table only the "
+"fields that have information in at least one of the selected products."
+"%3$sActivate the %1$s\"Dynamic Attribute fields\"%2$s option and there will "
+"be no more empty lines in your comparison table."
+msgstr ""
+"Grazie a questa preziosa funzionalità avrai la possibilità di mostrare nella "
+"tabella solo quei campi che sono stati impostati in almeno uno dei prodotti "
+"presenti.%3$sAttiva l’opzione %1$s“Dynamic Attribute fields”%2$s e non "
+"esisteranno più righe della tabella comparativa senza alcun valore di "
+"confronto."
+
+#: templates/admin/premium.php:335
+msgid "SOCIAL NETWORK SHARING"
+msgstr "CONDIVISIONE SUI SOCIAL NETWORK"
+
+#: templates/admin/premium.php:338
+#, php-format
+msgid ""
+"One of the most appealing features of the premium version of the plugin.Four "
+"social network sites for your users (Facebook, Twitter, Google + and "
+"Pinterest) and the email system %1$sto share%2$s the comparison table of the "
+"products they have selected."
+msgstr ""
+"Una delle novità più suggestive della versione premium del plugin: quattro "
+"social network da mettere a disposizione dei tuoi utenti (Facebook, Twitter, "
+"Google+ e Pinterest) e il servizio email per permettere loro di %1$sconvidere"
+"%2$s in rete la tabella comparativa dei prodotti che hanno selezionato."
+
+#: templates/admin/premium.php:354
+msgid "RELATED PRODUCTS"
+msgstr "PRODOTTI CORRELATI"
+
+#: templates/admin/premium.php:357
+#, php-format
+msgid ""
+"All the products that have common categories and/or tags with those in the "
+"comparison table will be showed in a slider, right under the comparison "
+"table.%3$sA completely %1$s\"touch friendly\"%2$s slider to encourage your "
+"users to discover the shop products of the shop related to those they are "
+"interested into."
+msgstr ""
+"Tutti i prodotti che hanno categorie e/o tag in comune con quelli presenti "
+"nella tabella comparativa saranno mostrati all’utente all’interno di uno "
+"slider, appena sotto la tabella comparativa.%3$sUno slider completamente "
+"%1$s“touch-friendly”%2$s per invitare i tuoi utenti a scoprire i prodotti "
+"del tuo shop affini a quelli che hanno attirato il loro interesse."
+
+#: templates/admin/premium.php:367
+msgid "CUSTOMIZABLE STYLE"
+msgstr "STILE PERSONALIZZABILE"
+
+#: templates/admin/premium.php:370
+#, php-format
+msgid ""
+"An advanced option panel that let you change all the colors of the plugin, "
+"so that you can adapt stylistically all its elements %1$sto the layout%2$s "
+"of your shop.We know it, looks also count... and we give you the right tools "
+"to get to the best result."
+msgstr ""
+
+#: templates/admin/premium.php:386
+msgid "CUSTOMIZED ATTRIBUTES"
+msgstr ""
+
+#: templates/admin/premium.php:389
+#, php-format
+msgid ""
+"Let you users compare products following every feature, and considering also "
+"all those %1$sattributes%2$s that can be manually created in within the "
+"product detail page. Every single detail will be included."
+msgstr ""
+
+#: templates/admin/premium.php:399
+msgid "A TAILORED TABLE"
+msgstr ""
+
+#: templates/admin/premium.php:402
+#, php-format
+msgid ""
+"Select the products you want to compare and the system will offer you the "
+"%1$sshortcode%2$s to generate a comparing table. Simple, rapid and useful."
+msgstr ""
+
+#: templates/admin/premium.php:418
+msgid "Compare list - widget"
+msgstr ""
+
+#: templates/admin/premium.php:421
+msgid ""
+"Thanks to YITH WooCommerce Comapre Widget users could verify at any time the "
+"complete list of products added to the compare tab and avoid to open the "
+"popup to check its existence. "
+msgstr ""
+
+#: templates/admin/premium.php:431
+msgid "Compare counter - widget and shortcode"
+msgstr ""
+
+#: templates/admin/premium.php:434
+msgid ""
+"Moreover, if you want to give your users the chance to see in a glance how "
+"many products they have added to the Compare list, feel free to use the "
+"widget or the shortcode included. And their Compare list is always no more "
+"than one click away."
+msgstr ""
+
+#: templates/compare.php:77
+msgid "Close window [X]"
+msgstr "Chiudi finestra [X]"
+
+#: templates/compare.php:106
+msgid "No products added in the compare table."
+msgstr "Nessun prodotto aggiunto nella tabella di comparazione."
+
+#: widgets/class.yith-woocompare-widget.php:23
+msgid "The widget shows the list of products added in the comparison table."
+msgstr ""
+"Il widget mostra l'elenco dei prodotti aggiunti alla tabella comparativa."
+
+#: widgets/class.yith-woocompare-widget.php:27
+msgid "YITH WooCommerce Compare Widget"
+msgstr "YITH WooCommerce Compare Widget"
+
+#: widgets/class.yith-woocompare-widget.php:50
+msgid "Clear all"
+msgstr "Cancella tutti"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Documentazione plugin"
+
+#~ msgid "Choose if you want to use a link or a button for the action button."
+#~ msgstr ""
+#~ "Scegli se vuoi usare un collegamento o un pulsante per l'azione di "
+#~ "\"Confronto\""
+
+#~ msgid ""
+#~ "An advanced option panel that let you change all the colors of the "
+#~ "plugin, so that you can adapt stylistically all its elements to the "
+#~ "%1$slayout%2$s of your shop.We know it, looks also count... and we give "
+#~ "you the right tools to get to the best result."
+#~ msgstr ""
+#~ "Un pannello opzioni avanzato che ti permette di modificare tutti i colori "
+#~ "del plugin, così da adattare stilisticamente tutti i suoi componenti al "
+#~ "%1$slayout%2$s del tuo shop.\n"
+#~ "In fondo, anche l’occhio vuole la sua parte... e noi ti diamo gli "
+#~ "strumenti adatti per arrivare al migliore risultato."
+
+#~ msgid "The widget show the list of products added in the compare table."
+#~ msgstr ""
+#~ "Widget che mostra la lista dei prodotti aggiunti nella tabella di "
+#~ "comparazione."
+
+#~ msgid "YITH Woocommerce Compare Widget"
+#~ msgstr "YITH Woocommerce Compare Widget"
+
+#~ msgid "Comparison Table"
+#~ msgstr "Tabella confronto"
+
+#~ msgid "Social Network Sites Sharing"
+#~ msgstr "Condivisione social network"
+
+#~ msgid "Related Products"
+#~ msgstr "Prodotti correlati"
+
+#~ msgid "Style"
+#~ msgstr "Stile"
+
+#~ msgid "View Page"
+#~ msgstr "Visualizza pagina"
+
+#~ msgid "Share on:"
+#~ msgstr "Condividi su:"
+
+#~ msgid "Category Filter"
+#~ msgstr "Filtro categoria"
+
+#~ msgid "Product Info"
+#~ msgstr "Informazioni prodotto"
+
+#~ msgid "Rating"
+#~ msgstr "Valutazione"
+
+#~ msgid "yith-compare"
+#~ msgstr "yith-compare"
+
+#~ msgid ""
+#~ "YITH WooCommerce Compare Premium is enabled but not effective. It "
+#~ "requires WooCommerce in order to work."
+#~ msgstr ""
+#~ "YITH WooCommerce Compare Premium è abilitato ma non in funzione. Devi "
+#~ "aver installato WooCommerce perché questo possa funzionare correttamente."
+
+#~ msgid "Page or Popup"
+#~ msgstr "Pagina o popup"
+
+#~ msgid ""
+#~ "Choose if you want to use a page or a popup for the standard comparison "
+#~ "table."
+#~ msgstr ""
+#~ "Scegli se vuoi utilizzare una pagina o una popup per la tabella "
+#~ "comparativa standard."
+
+#~ msgid "Page"
+#~ msgstr "Pagina"
+
+#~ msgid "Popup"
+#~ msgstr "Popup"
+
+#~ msgid "Type the text you want to use for the compare button/link."
+#~ msgstr ""
+#~ "Inserisci il testo che vuoi utilizzare per il pulsante o il link di "
+#~ "confronto."
+
+#~ msgid "Set this option to show the button in the single product page."
+#~ msgstr ""
+#~ "Seleziona questa opzione per mostrare il pulsante nella pagina singolo "
+#~ "prodotto."
+
+#~ msgid "Set this option to show the button in the products list."
+#~ msgstr ""
+#~ "Seleziona questa opzione per mostrare il pulsante nella lista prodotti."
+
+#~ msgid "Open lightbox automatically"
+#~ msgstr "Apri la lightbox automaticamente"
+
+#~ msgid "Open the link after clicking on the \"Compare\" button."
+#~ msgstr "Apri il link dopo aver fatto clic sul pulsante \"Confronta\"."
+
+#~ msgid "Open lightbox when adding a second item"
+#~ msgstr "Apri la lightbox quando viene aggiunto un secondo elemento"
+
+#~ msgid "Open the comparison lightbox after adding a second item to compare."
+#~ msgstr ""
+#~ "Apri la lighbox di confronto dopo che è stato aggiunto un secondo "
+#~ "articolo alla tabella comparativa."
+
+#~ msgid "Compare by category"
+#~ msgstr "Effettua il confronto per categoria"
+
+#~ msgid "Compare products by category."
+#~ msgstr "Confronta i prodotti per categoria."
+
+#~ msgid "Exclude category"
+#~ msgstr "Escludi categoria"
+
+#~ msgid "Choose category to exclude from the comparison."
+#~ msgstr "Scegli la categoria da escludere durante il confronto."
+
+#~ msgid "Reverse exclusion list"
+#~ msgstr "Inverti lista esclusioni"
+
+#~ msgid "Only categories in the exclusion list will have the compare feature"
+#~ msgstr ""
+#~ "Solo le categorie inserite nella lista esclusioni avranno la funzionalità "
+#~ "di confronto"
+
+#~ msgid "Related Options"
+#~ msgstr "Opzioni correlate"
+
+#~ msgid "Choose if you want to enable related products in the comparison"
+#~ msgstr "Scegli se abilitare i prodotti correlati per il confronto"
+
+#~ msgid "Show related products in"
+#~ msgstr "Mostra prodotti correlati in"
+
+#~ msgid "Visible Number"
+#~ msgstr "Numero visibili"
+
+#~ msgid "Choose number of related products you want to see on the screen."
+#~ msgstr ""
+#~ "Scegli il numero di prodotti correlati da visualizzare nello schermo."
+
+#~ msgid "Autoplay"
+#~ msgstr "Avvio automatico"
+
+#~ msgid "Enable slider autoplay"
+#~ msgstr "Abilita l'avvio automatico dello slider"
+
+#~ msgid "Slider Navigation"
+#~ msgstr "Navigazione slider"
+
+#~ msgid "Show prev/next navigation in the slider"
+#~ msgstr ""
+#~ "Mostra pulsanti di navigazione indietro/avanti all'interno dello slider"
+
+#~ msgid "Share Options"
+#~ msgstr "Opzioni di condivisione"
+
+#~ msgid "Enable Sharing"
+#~ msgstr "Abilita condivisione"
+
+#~ msgid "Check this option if you want to show the link to share the compare"
+#~ msgstr ""
+#~ "Spunta questa opzione se vuoi mostrare il link per condividere il "
+#~ "confronto prodotti"
+
+#~ msgid "Show sharing in"
+#~ msgstr "Mostra condivisione nella"
+
+#~ msgid "Select Social Network Sites"
+#~ msgstr "Seleziona social network"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Google+"
+#~ msgstr "Google+"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "eMail"
+#~ msgstr "email"
+
+#~ msgid "Title for Social Network Sharing"
+#~ msgstr "Titolo per condivisione social"
+
+#~ msgid "My Compare"
+#~ msgstr "Ho confrontato questi prodotti"
+
+#~ msgid "Text for Social Network Sharing"
+#~ msgstr "Testo per condivisione social"
+
+#~ msgid ""
+#~ "It will be used on Facebook, Twitter and Pinterest. Use %compare_url% "
+#~ "where you want to show the URL of your compare."
+#~ msgstr ""
+#~ "Sarà utilizzato su Facebook, Twitter e Pinterest. Utilizza %compare_url% "
+#~ "dove vuoi per mostrare l'URL dei prodotti confrontati da te."
+
+#~ msgid "Category Filter Options"
+#~ msgstr "Opzioni filtro categoria"
+
+#~ msgid "Filter title"
+#~ msgstr "Nome filtro"
+
+#~ msgid "The title for the category filter section"
+#~ msgstr "Inserisci qui il titolo per la sezione filtro per categoria"
+
+#~ msgid "Filter title color"
+#~ msgstr "Colore nome del filtro"
+
+#~ msgid "The color for the title of the category filter section"
+#~ msgstr "Colore del titolo della sezione filtro categoria "
+
+#~ msgid "Filter link color"
+#~ msgstr "Colore link filtro"
+
+#~ msgid "The color for the link of the category filter"
+#~ msgstr "Colore del link per il filtro categoria"
+
+#~ msgid "Filter link hover color"
+#~ msgstr "Colore link filtro hover"
+
+#~ msgid "The color for the link of the category filter on mouse hover"
+#~ msgstr "Colore per il link del filtro categoria al passaggio del mouse"
+
+#~ msgid "Table options"
+#~ msgstr "Opzioni tabella"
+
+#~ msgid "Remove color"
+#~ msgstr "Colore \"Rimuovi\""
+
+#~ msgid "The color for the \"Remove Product\" link"
+#~ msgstr "Colore del link \"Rimuovi prodotto\""
+
+#~ msgid "Remove hover color"
+#~ msgstr "Colore \"Rimuovi\" hover"
+
+#~ msgid "The color for the \"Remove Product\" link on mouse hover"
+#~ msgstr "Colore del link \"Rimuovi prodotto\" al passaggio del mouse"
+
+#~ msgid "Button text color"
+#~ msgstr "Colore testo pulsante"
+
+#~ msgid "The color for the text of the button"
+#~ msgstr "Colore per il testo mostrato nel pulsante"
+
+#~ msgid "Button text hover color"
+#~ msgstr "Colore testo pulsante hover"
+
+#~ msgid "The color for the text of the button on mouse hover"
+#~ msgstr "Colore per il testo mostrato nel pulsante al passaggio del mouse"
+
+#~ msgid "Button color"
+#~ msgstr "Colore pulsante"
+
+#~ msgid "The color for the button background"
+#~ msgstr "Colore del pulsante"
+
+#~ msgid "Button hover color"
+#~ msgstr "Colore pulsante hover"
+
+#~ msgid "The color for the button background on mouse hover"
+#~ msgstr "Colore del pulsante al passaggio del mouse"
+
+#~ msgid "Star color"
+#~ msgstr "Colore stellina"
+
+#~ msgid "The color of the star"
+#~ msgstr "Colore della stellina"
+
+#~ msgid "Share Title"
+#~ msgstr "Titolo di condivisione"
+
+#~ msgid "The title for the share section"
+#~ msgstr "Titolo per la sezione di condivisione"
+
+#~ msgid "Share on"
+#~ msgstr "Condividi su"
+
+#~ msgid "Share Title Color"
+#~ msgstr "Colore del titolo di condivisione"
+
+#~ msgid "The color for the title of the share section"
+#~ msgstr "Colore del titolo della sezione per la condivisione"
+
+#~ msgid "Related Title"
+#~ msgstr "Titolo correlati"
+
+#~ msgid "The title for the related section"
+#~ msgstr "Titolo per la sezione prodotti correlati"
+
+#~ msgid "Related Title Color"
+#~ msgstr "Colore titolo correlati"
+
+#~ msgid "The color for the title of the related section"
+#~ msgstr "Colore del titolo della sezione prodotti correlati"
+
+#~ msgid "Comparison Table Settings"
+#~ msgstr "Impostazioni tabella confronto"
+
+#~ msgid "Type the text for the table title."
+#~ msgstr "Inserisci qui il testo da usare come titolo della tabella."
+
+#~ msgid "Table image"
+#~ msgstr "Immagine tabella"
+
+#~ msgid "Choose an image/logo for the comparison table"
+#~ msgstr "Scegli un'immagine/logo per la tabella confronto"
+
+#~ msgid "Show table image in"
+#~ msgstr "Mostra immagine tabella in"
+
+#~ msgid "Dynamic Attribute fields"
+#~ msgstr "Campi attributo dinamici"
+
+#~ msgid "Choose to get dynamic attribute fields based on products"
+#~ msgstr "Scegli di rendere dinamici i campi attributo a seconda del prodotto"
+
+#~ msgid ""
+#~ "Select the fields to show in the comparison table and order them by "
+#~ "drag&drop (WooCommerce attributes are also included)"
+#~ msgstr ""
+#~ "Seleziona i campi da mostrare nella tabella confronto e ordinali grazie "
+#~ "allo strumento drag&drop (sono inclusi anche gli attributi di WooCommerce)"
+
+#~ msgid "Product Info Fields"
+#~ msgstr "Campi info prodotti"
+
+#~ msgid "Add to Cart"
+#~ msgstr "Aggiungi al carrello"
+
+#~ msgid ""
+#~ "Set image size (in px). After changing these settings you may need to %s."
+#~ msgstr ""
+#~ "Imposta la dimensione dell'immagine (in px). Dopo aver cambiato queste "
+#~ "impostazioni potrai aver bisogno di %s."
+
+#~ msgid "regenerate your thumbnails"
+#~ msgstr "rigenerare le thumbnail"
+
+#~ msgid "Search for a category&hellip;"
+#~ msgstr "Cerca una categoria&hellip;"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "No products added in the comparison table."
+#~ msgstr "Non è stato aggiunto alcun prodotto alla tabella comparativa."
+
+#~ msgid "Products Compare"
+#~ msgstr "Compara Prodotti"
+
+#~ msgid "Repeat \"Price\" field at the end of the table"
+#~ msgstr "Ripeti il campo \"Prezzo\" alla fine della tabella"
+
+#~ msgid "Repeat \"Add to cart\" field at the end of the table"
+#~ msgstr ""
+#~ "Ripeti il campo con \"Aggiungi al carrello\" alla fine della tabella"
+
+#~ msgid "Select a date"
+#~ msgstr "Seleziona data"
+
+#~ msgid "Hours"
+#~ msgstr "Ore"
+
+#~ msgid "Minutes"
+#~ msgstr "Minuti"
+
+#~ msgid "Upload"
+#~ msgstr "Carica"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "em"
+#~ msgstr "em"
+
+#~ msgid "pt"
+#~ msgstr "pt"
+
+#~ msgid "rem"
+#~ msgstr "rem"
+
+#~ msgid "Select a font family"
+#~ msgstr "Seleziona la famiglia font"
+
+#~ msgid "Regular"
+#~ msgstr "Normale"
+
+#~ msgid "Bold"
+#~ msgstr "Grassetto"
+
+#~ msgid "Extra bold"
+#~ msgstr "Extra bold"
+
+#~ msgid "Italic"
+#~ msgstr "Corsivo"
+
+#~ msgid "Italic bold"
+#~ msgstr "Grassetto corsivo"
+
+#~ msgid "Click to preview"
+#~ msgstr "Clicca per anteprima"
+
+#~ msgid "Woocommerce Compare"
+#~ msgstr "Modalità Manutenzione"
+
+#~ msgid "Docs"
+#~ msgstr "Documentazione"
+
+#~ msgid "Woocommerce Compare Active"
+#~ msgstr "Modalità Manutenzione attiva"
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "Enable Woocommerce Compare"
+#~ msgstr "Abilità Modalità Manutenzione"
+
+#~ msgid ""
+#~ "Enable the splash page to lets users to know the blog is down for "
+#~ "maintenance. (Default: Off) "
+#~ msgstr ""
+#~ "Abilita la pagina che permette agli utenti di vedere il sito in modalità "
+#~ "di manutenzione. (Default: Off)"
+
+#~ msgid "Roles"
+#~ msgstr "Ruoli"
+
+#~ msgid ""
+#~ "The user roles enabled to see the frontend. Check a role to enable it to "
+#~ "show the website with maintenance mode active."
+#~ msgstr ""
+#~ "I ruoli utente abilitati a vedere il frontend del sito. Controlla un "
+#~ "ruolo per abilitarlo e fargli mostrare il sito, nonostante la modalità "
+#~ "manutenzione attiva."
+
+#~ msgid "Message"
+#~ msgstr "Messaggio"
+
+#~ msgid "The message displayed. You can also use HTML code."
+#~ msgstr "Il messaggio mostrato. Puoi anche utilizzare del codice HTML."
+
+#~ msgid "OPS! WE ARE NOT READY YET!"
+#~ msgstr "OPS! NON SIAMO ANCORA PRONTI!"
+
+#~ msgid ""
+#~ "Hello there! We are not ready yet, but why don't you leave your email "
+#~ "address  and we'll let you know  as soon as we're in business!"
+#~ msgstr ""
+#~ "Ciao a tutti! Non siamo ancora pronti, ma lascia pure il tuo indirizzo "
+#~ "email così di essere avvisato non appena il sito sarà lanciato!"
+
+#~ msgid "Insert here your custom CSS style."
+#~ msgstr "Aggiungi qui il tuo stile CSS personalizzato."
+
+#~ msgid ""
+#~ "If you want, you can set here a mascotte image to show above the main "
+#~ "box, in the right side."
+#~ msgstr ""
+#~ "A tuo piacimento, puoi impostare qui l'immagine di una mascotte da "
+#~ "mostrare sopra il box principale, nella parte destra."
+
+#~ msgid "Typography"
+#~ msgstr "Tipografia"
+
+#~ msgid "Title font of message"
+#~ msgstr "Font del titolo all'interno del messaggio"
+
+#~ msgid ""
+#~ "Choose the font type, size and color for the titles inside the message "
+#~ "text."
+#~ msgstr ""
+#~ "Scegli il font, dimensione e colore per i titoli dentro il testo del "
+#~ "messaggio."
+
+#~ msgid "Paragraph font of message"
+#~ msgstr "Font del paragrafo all'interno del messaggio"
+
+#~ msgid ""
+#~ "Choose the font type, size and color for the paragraphs inside the "
+#~ "message text."
+#~ msgstr ""
+#~ "Scegli il font, dimensione e colore per i paragrafi dentro il testo del "
+#~ "messaggio."
+
+#~ msgid "Colors"
+#~ msgstr "Colori"
+
+#~ msgid "Border top color"
+#~ msgstr "Colore del bordo superiore"
+
+#~ msgid "Choose the color for the big border top of the main box."
+#~ msgstr "Scegli il colore per il bordo superiore del box"
+
+#~ msgid "Background"
+#~ msgstr "Sfondo"
+
+#~ msgid "Background Settings"
+#~ msgstr "Impostazioni sfondo"
+
+#~ msgid "Customize the background of the page"
+#~ msgstr "Personalizza lo sfondo della pagina"
+
+#~ msgid "Background image"
+#~ msgstr "Immagine sfondo"
+
+#~ msgid "Upload or choose from your media library the background image"
+#~ msgstr "Carica o scegli dalla libreria un'immagine di sfondo"
+
+#~ msgid "Background Color"
+#~ msgstr "Colore di sfondo"
+
+#~ msgid "Choose a background color"
+#~ msgstr "Scegli un colore di sfondo"
+
+#~ msgid "Background Repeat"
+#~ msgstr "Ripetizione sfondo"
+
+#~ msgid "Select the repeat mode for the background image."
+#~ msgstr "Seleziona la modalità di ripetizione per l'immagine di sfondo."
+
+#~ msgid "Repeat"
+#~ msgstr "Ripeti"
+
+#~ msgid "Repeat Horizontally"
+#~ msgstr "Ripeti orizontalmente"
+
+#~ msgid "Repeat Vertically"
+#~ msgstr "Ripeti verticalmente"
+
+#~ msgid "No Repeat"
+#~ msgstr "Nessuna ripetizione"
+
+#~ msgid "Background Position"
+#~ msgstr "Posizione sfondo"
+
+#~ msgid "Center"
+#~ msgstr "Centro"
+
+#~ msgid "Top left"
+#~ msgstr "In alto a sinistra"
+
+#~ msgid "Top center"
+#~ msgstr "In alto al centro"
+
+#~ msgid "Top right"
+#~ msgstr "In alto a destra"
+
+#~ msgid "Bottom left"
+#~ msgstr "In basso a sinistra"
+
+#~ msgid "Bottom center"
+#~ msgstr "In basso al centro"
+
+#~ msgid "Bottom right"
+#~ msgstr "In basso a destra"
+
+#~ msgid "Background Attachment"
+#~ msgstr "Ancorazione sfondo"
+
+#~ msgid "Select the attachment for the background image."
+#~ msgstr "Seleziona l'ancorazione dell'immagine di sfondo."
+
+#~ msgid "Scroll"
+#~ msgstr "Scorri"
+
+#~ msgid "Fixed"
+#~ msgstr "Fisso"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "Logo Settings"
+#~ msgstr "Impostazioni logo"
+
+#~ msgid "Customize the logo"
+#~ msgstr "Personalizza il logo"
+
+#~ msgid "Logo image"
+#~ msgstr "Immagine logo"
+
+#~ msgid "Upload or choose from your media library the logo image"
+#~ msgstr "Carica o scegli dalla libreria l'immagine del logo"
+
+#~ msgid "Logo tagline"
+#~ msgstr "Tagline del logo"
+
+#~ msgid "Set the tagline to show below the logo image"
+#~ msgstr "Imposta tagline da mostrare sotto l'immagine del logo"
+
+#~ msgid "Logo tagline font"
+#~ msgstr "Font della tagline"
+
+#~ msgid "Newsletter"
+#~ msgstr "Newsletter"
+
+#~ msgid "Add a newsletter form in your maintenance mode page."
+#~ msgstr "Aggiungi un form per la newsletter nella pagina di manutenzione."
+
+#~ msgid "Enable Newsletter form"
+#~ msgstr "Abilita il form per la newsletter"
+
+#~ msgid "Newsletter Email Font"
+#~ msgstr "Font email newsletter"
+
+#~ msgid "Choose the font type, size and color for the email input field."
+#~ msgstr "Scegli il font, dimensione e colore per il campo email del form."
+
+#~ msgid "Newsletter Submit Font"
+#~ msgstr "Font submit newsletter"
+
+#~ msgid "Choose the font type, size and color for the email submit."
+#~ msgstr "Scegli il font, dimensione e colore per il pulsante invia del form."
+
+#~ msgid "Newsletter submit background"
+#~ msgstr "Sfondo submit newsletter"
+
+#~ msgid "The submit button background."
+#~ msgstr "Sfondo del pulsante di invio "
+
+#~ msgid "Newsletter submit hover background"
+#~ msgstr "Font submit newsletter hover"
+
+#~ msgid "The submit button hover background."
+#~ msgstr "Colore di sfondo per il pulsante di invio all'hover del mouse."
+
+#~ msgid "The title displayed above the newsletter form."
+#~ msgstr "Il titolo mostrato sopra il form newsletter"
+
+#~ msgid "STAY UPDATED WITH %s"
+#~ msgstr "RESTA AGGIORNATO CON %s"
+
+#~ msgid "Form configuration"
+#~ msgstr "Configurazione form"
+
+#~ msgid ""
+#~ "Configure the form and each field, to integrate the newsletter features "
+#~ "of an external service."
+#~ msgstr ""
+#~ "Configra il form e ogni campo, per integrarlo con le caratteristiche di "
+#~ "un servizio newsletter esterno."
+
+#~ msgid "Action URL"
+#~ msgstr "URL Action"
+
+#~ msgid "Set the action url of the form."
+#~ msgstr "Imposta l'url dell'attributo \"action\" del form."
+
+#~ msgid "Form method"
+#~ msgstr "Metodo form"
+
+#~ msgid "Set the method for the form request."
+#~ msgstr "Imposta il metodo con la quale il form invia la richiesta."
+
+#~ msgid "\"Email\" field label"
+#~ msgstr "Label del campo \"Email\""
+
+#~ msgid "The label for the email field"
+#~ msgstr "La label per il campo email"
+
+#~ msgid "\"Email\" field name"
+#~ msgstr "Attributo name del campo \"Email\""
+
+#~ msgid "The \"name\" attribute for the email field"
+#~ msgstr "L'attributo \"name\" per il campo email"
+
+#~ msgid "Submit button label"
+#~ msgstr "Label del pulsante submit"
+
+#~ msgid "The label for the submit button"
+#~ msgstr "La label per il pulsante di invio"
+
+#~ msgid "GET NOTIFY"
+#~ msgstr "AGGIORNAMI"
+
+#~ msgid "Newsletter Hidden fields"
+#~ msgstr "Campi nascosti"
+
+#~ msgid ""
+#~ "Set the hidden fields to include in the form. Use the form: "
+#~ "field1=value1&field2=value2&field3=value3"
+#~ msgstr ""
+#~ "Imposta i campi nascosti da includere nel form. Usa la forma: "
+#~ "field1=value1&field2=value2&field3=value3"
+
+#~ msgid "Socials"
+#~ msgstr "Social"
+
+#~ msgid "Set the socials"
+#~ msgstr "Imposta i social"
+
+#~ msgid ""
+#~ "You can set here the url of your social accounts (you can leave empty if "
+#~ "you don't want to show the social icon)"
+#~ msgstr ""
+#~ "Qui puoi settare gli url dei tuoi account social (puoi lasciare vuoto se "
+#~ "non vuoi mostrare la rispettiva icona social)"
+
+#~ msgid "Set the URL of your facebook profile"
+#~ msgstr "Imposta l'URL del tuo profilo facebok"
+
+#~ msgid "Set the URL of your twitter profile"
+#~ msgstr "Imposta l'URL del tuo profilo twitter"
+
+#~ msgid "Set the URL of your Google+ profile"
+#~ msgstr "Imposta l'url del tuo profilo Google+"
+
+#~ msgid "Youtube"
+#~ msgstr "Youtube"
+
+#~ msgid "Set the URL of your youtube profile"
+#~ msgstr "Imposta l'url del tuo canale YouTube"
+
+#~ msgid "RSS"
+#~ msgstr "RSS"
+
+#~ msgid "Set the URL of your RSS feed"
+#~ msgstr "Imposta l'URL dei tuoi feed RSS"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "Set the username of your skype account"
+#~ msgstr "Imposta l'username del tuo account skype"
+
+#~ msgid "Write here your email address"
+#~ msgstr "Scrivi qui il tuo indirizzo email"
+
+#~ msgid "Behance"
+#~ msgstr "Behance"
+
+#~ msgid "Set the URL of your Behance profile"
+#~ msgstr "IMposta l'URL del tuo profilo Behance"
+
+#~ msgid "Dribble"
+#~ msgstr "Dribble"
+
+#~ msgid "Set the URL of your dribble profile"
+#~ msgstr "Imposta l'URL del tuo profilo dribble"
+
+#~ msgid "FlickR"
+#~ msgstr "FlicR"
+
+#~ msgid "Set the URL of your Flickr profile"
+#~ msgstr "Imposta l'URL del tuo profilo FlickR"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "Set the URL of your instagram profile"
+#~ msgstr "Imposta l'URL del tuo profilo Instagram"
+
+#~ msgid "Set the URL of your Pinterest profile"
+#~ msgstr "Imposta l'URL del tuo profilo Pinterest"
+
+#~ msgid "Tumblr"
+#~ msgstr "Tumblr"
+
+#~ msgid "Set the URL of your Tumblr profile"
+#~ msgstr "Imposta l'URL del tuo profilo Tumblr"
+
+#~ msgid "Set the URL of your LinkedIn profile"
+#~ msgstr "Imposta l'URL del tuo profilo su LinkedIn"
+
+#~ msgid "Choose a background color for the logo"
+#~ msgstr "Scegli il colore di sfondo per il logo"

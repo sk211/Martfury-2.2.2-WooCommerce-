@@ -1,0 +1,138 @@
+.mf-elementor-icons-list {
+	.icons-list-wrapper {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.box-item {
+		position: relative;
+
+		&:last-child {
+			.separator {
+				display: none;
+			}
+		}
+	}
+
+	.martfury-icon-box {
+		font-size: 14px;
+		display: flex;
+		align-items: center;
+		padding: 10px;
+		justify-content: center;
+		position: relative;
+		margin-bottom: 0;
+	}
+
+
+	.mf-icon-right {
+		flex-direction: row-reverse;
+
+		.box-wrapper {
+			text-align: right;
+		}
+	}
+
+	.mf-icon-center {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.separator {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		width: 1px;
+		height: 60px;
+		background-color: #dadada;
+		transform: translateY(-50%);
+	}
+
+	.box-icon {
+		color: @primary-color;
+		line-height: 1;
+		font-size: 40px;
+	}
+
+	.box-title {
+		font-size: 18px;
+		font-weight: 500;
+		margin-bottom: 0;
+		margin-top: 0;
+		color: #000;
+		transition: 0.5s;
+		display: block;
+	}
+}
+
+
+
+@media (max-width: 1920px) and (min-width: 1025px) {
+	.loop (@i) when (@i > 0) {
+		&.columns-@{i} {
+			.box-item {
+				flex: 0 0 1 / @i * 100%;
+				max-width: 1 / @i * 100% ;
+
+				&:nth-child(@{i}n) {
+					.separator {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.loop(@i - 1);
+	}
+
+	.elementor-widget-martfury-icons-list {
+		.loop(5)
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+	.sm-loop (@i) when (@i > 0) {
+		&.columns--tablet@{i} {
+			.box-item {
+				flex: 0 0 1 / @i * 100%;
+				max-width: 1 / @i * 100% ;
+
+				&:nth-child(@{i}n) {
+					.separator {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.sm-loop(@i - 1);
+	}
+
+	.elementor-widget-martfury-icons-list {
+		.sm-loop(5);
+	}
+}
+
+@media (max-width: 767px) {
+	.xs-loop (@i) when (@i > 0) {
+		&.columns--mobile@{i} {
+			.box-item {
+				flex: 0 0 1 / @i * 100%;
+				max-width: 1 / @i * 100% ;
+
+				&:nth-child(@{i}n) {
+					.separator {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.xs-loop(@i - 1);
+	}
+
+	.elementor-widget-martfury-icons-list {
+		.xs-loop(5);
+	}
+}

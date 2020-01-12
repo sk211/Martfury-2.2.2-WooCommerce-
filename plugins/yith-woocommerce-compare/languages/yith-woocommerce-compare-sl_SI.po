@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Woocommerce Compare\n"
+"POT-Creation-Date: 2018-11-28 16:33+0100\n"
+"PO-Revision-Date: 2018-11-28 16:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <support@yithemes.com>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-woocompare-admin.php:119
+#: ../includes/class.yith-woocompare-admin.php:143
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: ../includes/class.yith-woocompare-admin.php:121
+msgid "License"
+msgstr ""
+
+#: ../includes/class.yith-woocompare-admin.php:147
+msgid "Premium Version"
+msgstr "Premium verzija"
+
+#: ../includes/class.yith-woocompare-admin.php:153
+#: ../includes/class.yith-woocompare-admin.php:154
+#: ../includes/class.yith-woocompare-frontend.php:505
+#: ../plugin-options/general-options.php:41
+#: ../plugin-options/general-options.php:42
+#: ../widgets/class.yith-woocompare-widget.php:51
+msgid "Compare"
+msgstr "Primerjaj"
+
+#: ../includes/class.yith-woocompare-admin.php:241
+msgid "YITH WooCommerce Compare Activated"
+msgstr "YITH WooCommerce Compare aktiviran"
+
+#: ../includes/class.yith-woocompare-admin.php:242
+#, php-format
+msgid ""
+"In the YIT Plugin tab you can find the YITH WooCommerce Compare options. "
+"With this menu, you can access to all the settings of our plugins that you "
+"have activated. YITH WooCommerce Compare is available in an outstanding "
+"PREMIUM version with many new options, <a href=\"%s\">discover it now</a>."
+msgstr ""
+"V YIT Plugin zavihku lahko najdete vse možnosti YITH WooCommerce Compare. S "
+"tem menijem lahko dostopate do vseh nastavitev vtičnikov, ki ste jih "
+"aktivirali.  YITH WooCommerce Compare je na voljo v izjemni Premium "
+"različici z velko novih možnosti, <a href=\"%s\">raziščite jih zdaj</a>."
+
+#: ../includes/class.yith-woocompare-admin.php:253
+msgid "YITH WooCommerce Compare Updated"
+msgstr "YITH WooCommerce Compare posodobljen"
+
+#: ../includes/class.yith-woocompare-admin.php:254
+#, php-format
+msgid ""
+"From now on, you can find all the options of YITH WooCommerce Compare under "
+"YIT Plugin -> Compare instead of WooCommerce -> Settings -> Compare, as in "
+"the previous version. When one of our plugins is updated, a new voice will "
+"be added to this menu. YITH WooCommerce Compare has been updated with new "
+"available options, <a href=\"%s\">discover the PREMIUM version.</a>"
+msgstr ""
+"Od zdaj lahko najdete vse možnosti YITH WooCommerce Compare pod YIT Plugin  -"
+"> Primerjaj namesto WooCommerce  -> Nastavitve -> Primerjaj, tako kot v "
+"prejšnji različici. Ko posodobimo en vtičnik, bo nov glas dodan temu meniju. "
+"YITH WooCommerce Compare je bil posodobljen z novimi možnostmi, <a href=\"%s"
+"\">razišči Premium različico.</a>"
+
+#: ../includes/class.yith-woocompare-admin.php:398
+msgid "Do you want to hard crop the image?"
+msgstr "Trdo obrežem sliko?"
+
+#: ../includes/class.yith-woocompare-frontend.php:223
+msgid "Added"
+msgstr "Dodano"
+
+#: ../includes/class.yith-woocompare-frontend.php:224
+#: ../templates/compare.php:50
+msgid "Product Comparison"
+msgstr "Primerjanje izdelkov"
+
+#: ../includes/class.yith-woocompare-frontend.php:229
+msgid "Close"
+msgstr ""
+
+#: ../includes/class.yith-woocompare-frontend.php:384
+msgid "In stock"
+msgstr "Na zalogi"
+
+#: ../includes/class.yith-woocompare-frontend.php:696
+msgid "No products to compare"
+msgstr "Ni izdelkov za primerjavo"
+
+#: ../includes/class.yith-woocompare-frontend.php:709
+#: ../templates/compare.php:117
+msgid "Remove"
+msgstr "Odstrani"
+
+#: ../includes/class.yith-woocompare-helper.php:46
+msgid "Image"
+msgstr "Slika"
+
+#: ../includes/class.yith-woocompare-helper.php:47
+#: ../widgets/class.yith-woocompare-widget.php:68
+msgid "Title"
+msgstr "Naslov"
+
+#: ../includes/class.yith-woocompare-helper.php:48
+msgid "Price"
+msgstr "Cena"
+
+#: ../includes/class.yith-woocompare-helper.php:49
+msgid "Add to cart"
+msgstr "Dodaj v košarico"
+
+#: ../includes/class.yith-woocompare-helper.php:50
+msgid "Description"
+msgstr "Opis"
+
+#: ../includes/class.yith-woocompare-helper.php:51
+msgid "Sku"
+msgstr ""
+
+#: ../includes/class.yith-woocompare-helper.php:52
+msgid "Availability"
+msgstr "Razpoložljivost"
+
+#: ../includes/class.yith-woocompare-helper.php:53
+msgid "Weight"
+msgstr ""
+
+#: ../includes/class.yith-woocompare-helper.php:54
+msgid "Dimensions"
+msgstr ""
+
+#: ../init.php:42
+msgid ""
+"YITH WooCommerce Compare is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr "YITH WooCommerce Compare je omogočen toda ne deluje brez WooCommerca."
+
+#: ../init.php:50
+msgid ""
+"You can't activate the free version of YITH WooCommerce Compare while you "
+"are using the premium one."
+msgstr ""
+"Ne morete aktivirati brezplačne različice YITH WooCommerce Compare, medtem "
+"ko uporabljate Premium različico."
+
+#: ../plugin-options/general-options.php:17
+msgid "General Settings"
+msgstr "Splošne nastavitve"
+
+#: ../plugin-options/general-options.php:24
+msgid "Link or Button"
+msgstr "Besedilo povezave ali gumba"
+
+#: ../plugin-options/general-options.php:25
+#, fuzzy
+#| msgid "Choose if you want to use a link or a button for the action button."
+msgid "Choose if you want to use a link or a button for the comepare actions."
+msgstr "Izberi ali želiš uporabiti povezava ali gumb za gumb dejanja."
+
+#: ../plugin-options/general-options.php:32
+msgid "Link"
+msgstr "Povezava"
+
+#: ../plugin-options/general-options.php:33
+msgid "Button"
+msgstr "Gumb"
+
+#: ../plugin-options/general-options.php:38
+msgid "Link/Button text"
+msgstr "Besedilo povezave ali gumba"
+
+#: ../plugin-options/general-options.php:39
+msgid "Type the text to use for the button or the link of the compare."
+msgstr ""
+"Vnesite besedilo, ki bo uporabljeno za gumb ali povezavo za primerjavo."
+
+#: ../plugin-options/general-options.php:47
+msgid "Show button in single product page"
+msgstr "Pokaži gumb na strani posameznega izdelka"
+
+#: ../plugin-options/general-options.php:48
+msgid "Say if you want to show the button in the single product page."
+msgstr "Izberi, če želiš pokazati gumb na strani posameznega izdelka."
+
+#: ../plugin-options/general-options.php:56
+msgid "Show button in products list"
+msgstr "Pokaži gumb v seznamu izdelkov"
+
+#: ../plugin-options/general-options.php:57
+msgid "Say if you want to show the button in the products list."
+msgstr "Izberi, če želiš pokazati gumb na seznamu izdelkov."
+
+#: ../plugin-options/general-options.php:65
+msgid "Open automatically lightbox"
+msgstr "Avtomatično odpri lightbox"
+
+#: ../plugin-options/general-options.php:66
+msgid "Open link after click into \"Compare\" button\"."
+msgstr "Odpri povezavo po kliku na gumb  \"Primerjaj\" ."
+
+#: ../plugin-options/general-options.php:79
+msgid "Table Settings"
+msgstr "Nastavitve table"
+
+#: ../plugin-options/general-options.php:86
+msgid "Table title"
+msgstr "Naslov tabele"
+
+#: ../plugin-options/general-options.php:87
+msgid "Type the text to use for the table title."
+msgstr "Vpiši besedilo, ki bo uporabljeno za naslov tabele."
+
+#: ../plugin-options/general-options.php:89
+#: ../plugin-options/general-options.php:90
+msgid "Compare products"
+msgstr "Primerjaj izdelke"
+
+#: ../plugin-options/general-options.php:95
+msgid "Fields to show"
+msgstr "Polja za prikaz"
+
+#: ../plugin-options/general-options.php:96
+msgid ""
+"Select the fields to show in the comparison table and order them by "
+"drag&drop (are included also the woocommerce attributes)"
+msgstr ""
+"Izberi polja za prikaz v primerjalni tabeli in jih razvrsti s povleci&spusti "
+"(vključene so tudi možnosti woocommerce)"
+
+#: ../plugin-options/general-options.php:104
+msgid "Repeat \"Price\" field"
+msgstr "Ponovi polje \"Cena\""
+
+#: ../plugin-options/general-options.php:105
+msgid "Repeat the \"Price\" field at the end of the table"
+msgstr "Ponovi polje \"Cena\" na koncu tabele"
+
+#: ../plugin-options/general-options.php:113
+msgid "Repeat \"Add to cart\" field"
+msgstr "Ponovi \"Dodaj v košarico\" polje"
+
+#: ../plugin-options/general-options.php:114
+msgid "Repeat the \"Add to cart\" field at the end of the table"
+msgstr "Ponovi polje \"Dodaj v košarico\" na koncu tabele"
+
+#: ../plugin-options/general-options.php:122
+msgid "Image size"
+msgstr "Velikost slike"
+
+#: ../plugin-options/general-options.php:123
+msgid "Set the size for the images"
+msgstr "Nastavi velikost slik"
+
+#: ../templates/admin/premium.php:240 ../templates/admin/premium.php:446
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Compare%2$s to "
+"benefit from all features!"
+msgstr ""
+"Nadgradite v %1$spremium različico%2$s z %1$sYITH WooCommerce Compare%2$s da "
+"boste lahko izkoristili vse možnosti!"
+
+#: ../templates/admin/premium.php:243 ../templates/admin/premium.php:449
+msgid "UPGRADE"
+msgstr "NADGRADI"
+
+#: ../templates/admin/premium.php:244 ../templates/admin/premium.php:450
+msgid "to the premium version"
+msgstr "na premium različico"
+
+#: ../templates/admin/premium.php:250
+msgid "Premium Features"
+msgstr "Premium možnosti"
+
+#: ../templates/admin/premium.php:258
+msgid "A DEDICATED PAGE"
+msgstr "STRAN ZA POSVETILA"
+
+#: ../templates/admin/premium.php:261
+#, php-format
+msgid ""
+"Don't you want to compare your products in a modal window anymore?%3$sWith "
+"the premium version of %1$sYITH WooCommerce Compare%2$s, a new page will be "
+"created automatically in your site and, adding it among the menu entries, "
+"you will be able to give to your users the chance to access it easily "
+"whenever they want."
+msgstr ""
+"Si ne želite več primerjati vaših izdelkov v modalnem oknu?%3$s S premium "
+"različico %1$sYITH WooCommerce Compare%2$s, bo nova stran na vaši spletni "
+"strani samodejno  ustvarjena in z dodajanjem med meniji boste svojim "
+"uporabnikom dali možnost enostavnega dostopa."
+
+#: ../templates/admin/premium.php:271
+msgid "CATEGORY COMPARATION"
+msgstr "PRIMERJANJE KATEGORIJ"
+
+#: ../templates/admin/premium.php:274
+#, php-format
+msgid ""
+"People are often confused by finding products of different categories in the "
+"comparison table, creating difficulties in comparing the products they are "
+"interested into.The %1$s\"Compare by category\"%2$s option exists for this "
+"need: you will be able to separate the products in the table by category "
+"affinity."
+msgstr ""
+"Uporabniki so pogosto zmedeni ob iskanju izdelkov v različnih kategorijah v "
+"tabeli za primerjavo, kar ustvarja težave pri primerjanju izdelkov, za "
+"katere se zanimajo. Možnost %1$s \"Primerjava po kategoriji\"%2$s omogoča, "
+"da ločite izdelke v tabeli po sorodnih kategorijah.  "
+
+#: ../templates/admin/premium.php:290
+msgid "CATEGORY EXCLUSION "
+msgstr "IZKLJUČENE KATEGORIJE"
+
+#: ../templates/admin/premium.php:293
+#, php-format
+msgid ""
+"In your shop there may be product categories you don't want to be affected "
+"by the plugin features, deleting the comparison button for them. The premium "
+"version of the plugin offers this too.%3$sAnd there's more! Activating the "
+"%1$s\"Reverse exclusion list\"%2$s option, you can also invert the behavior "
+"of the feature, allowing the comparison only to those products of the "
+"selected categories."
+msgstr ""
+"In your shop there may be product categories you don't want to be affected "
+"by the plugin features, deleting the comparison button for them. The premium "
+"version of the plugin offers this too.%3$sAnd there's more! Activating the "
+"%1$s\"Reverse exclusion list\"%2$s option, you can also invert the behavior "
+"of the feature, allowing the comparison only to those products of the "
+"selected categories."
+
+#: ../templates/admin/premium.php:303
+msgid "TABLE IMAGE"
+msgstr "SLIKA TABELE"
+
+#: ../templates/admin/premium.php:306
+#, php-format
+msgid ""
+"Give a personal touch to the %1$scomparison table%2$s your users will see. "
+"Select an image, upload it from the option panel and show it ahead of the "
+"table to your users. "
+msgstr ""
+"Dodajte osebno noto v %1$sprimerjalno tabelo%2$s ki jo bodo uporabniki lahko "
+"videli. Izberite sliko, prenesite jo iz panela možnosti in jo prikažite za "
+"vaše uporabnike pred tabelo."
+
+#: ../templates/admin/premium.php:322
+msgid "DYNAMIC FIELDS"
+msgstr "DINAMIČNA POLJA"
+
+#: ../templates/admin/premium.php:325
+#, php-format
+msgid ""
+"With this precious feature, you will be able to show in the table only the "
+"fields that have information in at least one of the selected products."
+"%3$sActivate the %1$s\"Dynamic Attribute fields\"%2$s option and there will "
+"be no more empty lines in your comparison table."
+msgstr ""
+"S to funkcijo boste lahko v tabeli pokazali le tista polaj, ki vsebujejo "
+"informacije o vsaj enem izbranem izdelku.%3$sAktivirajte %1$s\"Dynamic "
+"Attribute fields\"%2$s funkcijo, tako da ne boste imeli praznih vrstic v "
+"vaši tabeli za primerjanje."
+
+#: ../templates/admin/premium.php:335
+msgid "SOCIAL NETWORK SHARING"
+msgstr "DELI SOCIALNA OMREŽJA"
+
+#: ../templates/admin/premium.php:338
+#, php-format
+msgid ""
+"One of the most appealing features of the premium version of the plugin.Four "
+"social network sites for your users (Facebook, Twitter, Google + and "
+"Pinterest) and the email system %1$sto share%2$s the comparison table of the "
+"products they have selected."
+msgstr ""
+"Ena izmed najbolj privlačnih značilnosti premium različice vtičnika. Štiri "
+"družbena omrežja za vaše uporabnike (Facebook, Twitter, Google + and "
+"Pinterest) in sistem e-pošte %1$s deli%2$s za primerjalno tabelo izdelkov, "
+"ki so jih izbrali."
+
+#: ../templates/admin/premium.php:354
+msgid "RELATED PRODUCTS"
+msgstr "SORODNI IZDELKI"
+
+#: ../templates/admin/premium.php:357
+#, php-format
+msgid ""
+"All the products that have common categories and/or tags with those in the "
+"comparison table will be showed in a slider, right under the comparison "
+"table.%3$sA completely %1$s\"touch friendly\"%2$s slider to encourage your "
+"users to discover the shop products of the shop related to those they are "
+"interested into."
+msgstr ""
+"Vsi izdelki, ki imajo skupne kategorije in/ali oznake s tistimi iz "
+"primerjalne tabele se bodo pokazali v drsniku, tik pod primerjalno tabelo."
+"%3$sA Povsem %1$ s \"prijazen dotik\"%2$s drsnika za spodbujanje "
+"uporabnikov, da odkrivajo tiste izdelke v  trgovini, ki jih zanimajo."
+
+#: ../templates/admin/premium.php:367
+msgid "CUSTOMIZABLE STYLE"
+msgstr "PRILAGODLJIVI STIL"
+
+#: ../templates/admin/premium.php:370
+#, fuzzy, php-format
+#| msgid ""
+#| "An advanced option panel that let you change all the colors of the "
+#| "plugin, so that you can adapt stylistically all its elements to the "
+#| "%1$slayout%2$s of your shop.We know it, looks also count... and we give "
+#| "you the right tools to get to the best result."
+msgid ""
+"An advanced option panel that let you change all the colors of the plugin, "
+"so that you can adapt stylistically all its elements %1$sto the layout%2$s "
+"of your shop.We know it, looks also count... and we give you the right tools "
+"to get to the best result."
+msgstr ""
+"Napredni panel možnosti, ki vam omogoča spremembo vseh barv vtičnika, tako "
+"da se lahko slogovno prilagodi vsem elementom v  %1$spostavitev%2$s vaše "
+"trgovine. Vemo, videti je, da tudi računa.... dali smo vam najboljše orodje "
+"za doseganje najboljših rezultatov."
+
+#: ../templates/admin/premium.php:386
+#, fuzzy
+#| msgid "CUSTOMIZABLE STYLE"
+msgid "CUSTOMIZED ATTRIBUTES"
+msgstr "PRILAGODLJIVI STIL"
+
+#: ../templates/admin/premium.php:389
+#, php-format
+msgid ""
+"Let you users compare products following every feature, and considering also "
+"all those %1$sattributes%2$s that can be manually created in within the "
+"product detail page. Every single detail will be included."
+msgstr ""
+
+#: ../templates/admin/premium.php:399
+msgid "A TAILORED TABLE"
+msgstr ""
+
+#: ../templates/admin/premium.php:402
+#, php-format
+msgid ""
+"Select the products you want to compare and the system will offer you the "
+"%1$sshortcode%2$s to generate a comparing table. Simple, rapid and useful."
+msgstr ""
+
+#: ../templates/admin/premium.php:418
+msgid "Compare list - widget"
+msgstr ""
+
+#: ../templates/admin/premium.php:421
+msgid ""
+"Thanks to YITH WooCommerce Comapre Widget users could verify at any time the "
+"complete list of products added to the compare tab and avoid to open the "
+"popup to check its existence. "
+msgstr ""
+
+#: ../templates/admin/premium.php:431
+msgid "Compare counter - widget and shortcode"
+msgstr ""
+
+#: ../templates/admin/premium.php:434
+msgid ""
+"Moreover, if you want to give your users the chance to see in a glance how "
+"many products they have added to the Compare list, feel free to use the "
+"widget or the shortcode included. And their Compare list is always no more "
+"than one click away."
+msgstr ""
+
+#: ../templates/compare.php:77
+msgid "Close window [X]"
+msgstr "Zapri okno [X]"
+
+#: ../templates/compare.php:106
+msgid "No products added in the compare table."
+msgstr "V tabeli za primerjanje ni dodanih izdelkov."
+
+#: ../widgets/class.yith-woocompare-widget.php:23
+#, fuzzy
+#| msgid "The widget show the list of products added in the compare table."
+msgid "The widget shows the list of products added in the comparison table."
+msgstr "Vtičnik prikaže seznam izdelkov, dodanih v tabelo za primerjavo."
+
+#: ../widgets/class.yith-woocompare-widget.php:27
+#, fuzzy
+#| msgid "YITH Woocommerce Compare Widget"
+msgid "YITH WooCommerce Compare Widget"
+msgstr "YITH Woocommerce Compare vtičnik"
+
+#: ../widgets/class.yith-woocompare-widget.php:50
+msgid "Clear all"
+msgstr "Počisti vse"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Dokumentacija vtičnika"

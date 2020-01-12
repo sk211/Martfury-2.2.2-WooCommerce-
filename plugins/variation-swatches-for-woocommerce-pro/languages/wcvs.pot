@@ -1,0 +1,127 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-14 10:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woocommerce-variation-swatches.php:57 includes/class-admin.php:303
+msgid "Color"
+msgstr ""
+
+#: woocommerce-variation-swatches.php:58 includes/class-admin.php:310
+msgid "Image"
+msgstr ""
+
+#: woocommerce-variation-swatches.php:59 includes/class-admin.php:325
+msgid "Label"
+msgstr ""
+
+#: woocommerce-variation-swatches.php:161
+msgid ""
+"Soo Product Attribute Swatches is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: includes/class-admin.php:87
+msgid "Choose an image"
+msgstr ""
+
+#: includes/class-admin.php:88
+msgid "Use image"
+msgstr ""
+
+#: includes/class-admin.php:147 includes/class-admin.php:316
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/class-admin.php:148 includes/class-admin.php:317
+msgid "Remove image"
+msgstr ""
+
+#: includes/class-admin.php:193
+msgid "Select terms"
+msgstr ""
+
+#: includes/class-admin.php:204
+msgid "Select all"
+msgstr ""
+
+#: includes/class-admin.php:205
+msgid "Select none"
+msgstr ""
+
+#: includes/class-admin.php:206
+msgid "Add new"
+msgstr ""
+
+#: includes/class-admin.php:270
+msgid "Add new term"
+msgstr ""
+
+#: includes/class-admin.php:274
+msgid "Name"
+msgstr ""
+
+#: includes/class-admin.php:280
+msgid "Slug"
+msgstr ""
+
+#: includes/class-admin.php:292
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-admin.php:293
+msgid "Add New"
+msgstr ""
+
+#: includes/class-admin.php:352
+msgid "Wrong request"
+msgstr ""
+
+#: includes/class-admin.php:356
+msgid "Not enough data"
+msgstr ""
+
+#: includes/class-admin.php:360
+msgid "Taxonomy is not exists"
+msgstr ""
+
+#: includes/class-admin.php:364
+msgid "This term is exists"
+msgstr ""
+
+#: includes/class-admin.php:378
+msgid "Added successfully"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Variation Swatches"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"An extension of WooCommerce to make variation products be more beauty and "
+"friendly with users."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://drfuri.com/woocommerce-variation-swatches"
+msgstr ""
+
+#. Author of the plugin
+msgid "DrFuri"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://drfuri.com/"
+msgstr ""

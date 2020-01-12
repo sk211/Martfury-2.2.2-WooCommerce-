@@ -1,0 +1,247 @@
+// Bootstrap
+
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5,
+.col-xs-2-5, .col-sm-2-5, .col-md-2-5, .col-lg-2-5,
+.col-xs-3-5, .col-sm-3-5, .col-md-3-5, .col-lg-3-5,
+.col-xs-4-5, .col-sm-4-5, .col-md-4-5, .col-lg-4-5 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-xs-1-5 {
+	width: 20%;
+	float: left;
+}
+
+.col-xs-2-5 {
+	width: 40%;
+	float: left;
+}
+
+.col-xs-3-5 {
+	width: 60%;
+	float: left;
+}
+
+.col-xs-4-5 {
+	width: 80%;
+	float: left;
+}
+
+@media (min-width: 768px) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.col-sm-2-5 {
+		width: 40%;
+		float: left;
+	}
+	.col-sm-3-5 {
+		width: 60%;
+		float: left;
+	}
+	.col-sm-4-5 {
+		width: 80%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.col-md-2-5 {
+		width: 40%;
+		float: left;
+	}
+	.col-md-3-5 {
+		width: 60%;
+		float: left;
+	}
+	.col-md-4-5 {
+		width: 80%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.col-lg-2-5 {
+		width: 40%;
+		float: left;
+	}
+	.col-lg-3-5 {
+		width: 60%;
+		float: left;
+	}
+	.col-lg-4-5 {
+		width: 80%;
+		float: left;
+	}
+}
+
+// Flex
+
+.row-flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.col-loop (@i) when (@i > 0) {
+	.col-flex-xs-@{i},
+	.col-flex-sm-@{i},
+	.col-flex-md-@{i},
+	.col-flex-lg-@{i}{
+		min-height: 1px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.col-loop(@i - 1);
+}
+
+.col-loop(12);
+
+.col-flex-xs-1-5, .col-flex-sm-1-5, .col-flex-md-1-5, .col-flex-lg-1-5,
+.col-flex-xs-2-5, .col-flex-sm-2-5, .col-flex-md-2-5, .col-flex-lg-2-5,
+.col-flex-xs-3-5, .col-flex-sm-3-5, .col-flex-md-3-5, .col-flex-lg-3-5,
+.col-flex-xs-4-5, .col-flex-sm-4-5, .col-flex-md-4-5, .col-flex-lg-4-5 {
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+// Define flex columns
+
+.col-xs-loop (@i) when (@i > 0) {
+	.col-flex-xs-@{i} {
+		flex: 0 0 @i / 12 * 100%;
+		max-width: @i / 12 * 100% ;
+	}
+	.col-xs-loop(@i - 1);
+}
+.col-xs-loop(12);
+
+// 5 Columns
+.col-flex-xs-1-5 {
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+
+.col-flex-xs-2-5 {
+	flex: 0 0 40%;
+	max-width: 40%;
+}
+
+.col-flex-xs-3-5 {
+	flex: 0 0 60%;
+	max-width: 60%;
+}
+
+.col-flex-xs-4-5 {
+	flex: 0 0 80%;
+	max-width: 80%;
+}
+
+@media (min-width: 768px) {
+	.col-sm-loop (@i) when (@i > 0) {
+		.col-flex-sm-@{i} {
+			flex: 0 0 @i / 12 * 100%;
+			max-width: @i / 12 * 100% ;
+		}
+		.col-sm-loop(@i - 1);
+	}
+	.col-sm-loop(12);
+
+	// 5 Columns
+	.col-flex-sm-1-5 {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+
+	.col-flex-sm-2-5 {
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+
+	.col-flex-sm-3-5 {
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+
+	.col-flex-sm-4-5 {
+		flex: 0 0 80%;
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-loop (@i) when (@i > 0) {
+		.col-flex-md-@{i} {
+			flex: 0 0 @i / 12 * 100%;
+			max-width: @i / 12 * 100% ;
+		}
+		.col-md-loop(@i - 1);
+	}
+	.col-md-loop(12);
+
+	// 5 Columns
+	.col-flex-md-1-5 {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+
+	.col-flex-md-2-5 {
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+
+	.col-flex-md-3-5 {
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+
+	.col-flex-md-4-5 {
+		flex: 0 0 80%;
+		max-width: 80%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-loop (@i) when (@i > 0) {
+		.col-flex-lg-@{i} {
+			flex: 0 0 @i / 12 * 100%;
+			max-width: @i / 12 * 100% ;
+		}
+		.col-lg-loop(@i - 1);
+	}
+	.col-lg-loop(12);
+
+	// 5 Columns
+	.col-flex-lg-1-5 {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+
+	.col-flex-lg-2-5 {
+		flex: 0 0 40%;
+		max-width: 40%;
+	}
+
+	.col-flex-lg-3-5 {
+		flex: 0 0 60%;
+		max-width: 60%;
+	}
+
+	.col-flex-lg-4-5 {
+		flex: 0 0 80%;
+		max-width: 80%;
+	}
+}

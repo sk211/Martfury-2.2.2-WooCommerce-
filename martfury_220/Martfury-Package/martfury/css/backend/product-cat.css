@@ -1,0 +1,54 @@
+ul.mf-cat-images li {
+	display: inline-block;
+	position: relative;
+	margin-bottom: 0;
+}
+
+ul.mf-cat-images li.image {
+	max-height: 100px;
+	overflow: hidden;
+}
+
+ul.mf-cat-images li.image .actions {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	text-align: center;
+	z-index: 20;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+ul.mf-cat-images li.image:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	content: "";
+	z-index: 10;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+ul.mf-cat-images li.image:hover:before,
+ul.mf-cat-images li.image:hover .actions {
+	opacity: 1;
+}
+
+ul.mf-cat-images li.image .actions .delete {
+	color: #fff;
+}
+
+.mf-custom-elements p label {
+	display: inline-block;
+}
+
+table.wp-list-table td.column-description {
+	max-height: 75px;
+	overflow-y: hidden;
+	display: block;
+}

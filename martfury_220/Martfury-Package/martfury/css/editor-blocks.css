@@ -1,0 +1,83 @@
+/*
+Theme Name: Martfury
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+.editor-styles-wrapper.edit-post-visual-editor p.wp-block-subhead {
+    font-size: 1.1em;
+    font-style: italic;
+    opacity: .75;
+    color: #666;
+}
+
+/* List styles */
+
+.wp-block-freeform.block-library-rich-text__tinymce ul li {
+    margin-bottom: 0;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce ol,
+.wp-block-freeform.block-library-rich-text__tinymce ul {
+    margin: 0 0 1.5em;
+    padding-left: 1.5em;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce ol ol,
+.wp-block-freeform.block-library-rich-text__tinymce ul ul,
+.wp-block-freeform.block-library-rich-text__tinymce ul ol,
+.wp-block-freeform.block-library-rich-text__tinymce ol ul {
+    margin-bottom: 0;
+}
+
+.block-library-list .editor-rich-text__tinymce,
+.block-library-list .editor-rich-text__tinymce ol,
+.block-library-list .editor-rich-text__tinymce ul {
+    margin-left: 0;
+    padding-left: 1.5em;
+}
+
+.block-editor ul.wp-block-archives {
+    padding-left: 1.5em;
+}
+
+.wp-block-cover-image.has-background-dim::before, .wp-block-cover.has-background-dim::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce pre,
+.editor-styles-wrapper .wp-block-preformatted pre {
+    padding: 9.5px;
+    margin: 0 0 10px;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+.editor-post-title__block .editor-post-title__input {
+    font-family: inherit;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=left] .editor-block-list__block-edit {
+    margin-right: 20px;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=right]>.editor-block-list__block-edit {
+    margin-left: 20px;
+}
+
+.wp-block {
+    max-width: 1200px;
+}
+
+.wp-block[data-align=wide] {
+    max-width: 1545px;
+}

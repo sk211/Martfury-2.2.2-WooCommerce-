@@ -1,0 +1,124 @@
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.tawcvs-tooltip {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #111;
+	color: #fff;
+	border: none;
+	padding: 0;
+	opacity: 1;
+	position: absolute;
+	z-index: 10;
+}
+
+.tawcvs-tooltip .ui-tooltip-content {
+	font-size: 13px;
+	position: relative;
+	padding: 4px 10px;
+}
+
+.tawcvs-tooltip .ui-tooltip-content::after {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 50%;
+	margin-left: -4px;
+	border-style: solid;
+	display: block;
+	width: 0;
+	border-color: #111 transparent;
+	border-width: 4px 4px 0;
+}
+
+.tawcvs-swatches {
+	overflow: hidden;
+	padding: 5px;
+}
+
+.tawcvs-swatches .swatch {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 15px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	position: relative;
+}
+
+.tawcvs-swatches .swatch.selected {
+	-webkit-box-shadow: 0 0 5px;
+	-moz-box-shadow: 0 0 5px;
+	box-shadow: 0 0 5px;
+	border-color: #999;
+	opacity: 1;
+}
+
+.tawcvs-swatches .swatch.disabled {
+	opacity: 0.1;
+}
+
+.tawcvs-swatches .swatch-color {
+	text-indent: -9999px;
+	border: 2px solid #ccc;
+}
+
+.tawcvs-swatches .swatch-color.selected {
+	border-color: #333;
+}
+
+.tawcvs-swatches .swatch-color.selected:before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+	content: "";
+	width: 6px;
+	height: 10px;
+	display: block;
+	border: solid #eee;
+	border-width: 0 2px 2px 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -5px 0 0 -3px;
+}
+
+.tawcvs-swatches .swatch-label {
+	background-color: #f1f1f1;
+}
+
+.tawcvs-swatches .swatch-image {
+	overflow: hidden;
+}
+
+.tawcvs-swatches .swatch.round {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.tawcvs-swatches .swatch.rounded {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.tawcvs-swatches .swatch.square {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}

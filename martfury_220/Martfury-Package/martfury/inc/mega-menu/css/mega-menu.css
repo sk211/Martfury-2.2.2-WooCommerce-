@@ -1,0 +1,182 @@
+.tamm-settings {
+	position: relative;
+	display: none;
+}
+
+.tamm-modal-backdrop {
+	z-index: 159899;
+}
+
+.tamm-modal {
+	z-index: 159999;
+}
+
+.tamm-menu a:focus,
+.tamm-menu a:active {
+	outline: none;
+}
+
+.tamm-menu a.active {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.tamm-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.tamm-content > .tamm-panel {
+	padding: 20px;
+	display: none;
+}
+
+.tamm-content > .tamm-panel.active {
+	display: block;
+}
+
+.tamm-content > .spinner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -10px 0 0 -10px;
+	opacity: 1;
+	visibility: visible;
+}
+
+/**
+ * Mega Menu Content Fields
+ */
+.tamm-mega-content {
+	position: relative;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.tamm-submenu-column {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: width 0.7s;
+	float: left;
+	position: relative;
+	padding: 10px;
+}
+
+.tamm-submenu-column ul {
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #eee;
+	background: #fff;
+}
+
+.tamm-submenu-column li.menu-item-depth-0 {
+	text-transform: uppercase;
+	position: relative;
+	padding: 0 40px 0 0;
+}
+
+.tamm-submenu-column .tamm-column-handle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	cursor: pointer;
+}
+
+.tamm-submenu-column .tamm-resizable-e {
+	right: 20px;
+}
+
+.tamm-submenu-column .tamm-resizable-w {
+	text-align: right;
+}
+
+/**
+ * Background Fields
+ */
+.tamm-panel-background {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+	height: 100%;
+}
+
+.tamm-panel-background .background-image {
+	width: 50%;
+	position: relative;
+	height: 100%;
+	float: left;
+	margin: 0;
+	padding-right: 20px;
+}
+
+.tamm-panel-background .background-image-preview {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.tamm-panel-background .background-image-preview img {
+	max-width: 100%;
+}
+
+.tamm-toolbar .spinner {
+	margin-top: 22px;
+}
+
+/**
+ * Icon fields
+ */
+
+.tamm-icon-selector {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.tamm-icon-selector .tamm-icon-search {
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	padding: 10px;
+}
+
+#tamm-selected-icon {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 10px;
+}
+
+#tamm-selected-icon i {
+	font-size: 20px;
+	line-height: 48px;
+	cursor: pointer;
+}
+
+#tamm-selected-icon:hover {
+	border-color: #fe2f2f;
+}
+
+.tamm-icon-selector .icons i {
+	cursor: pointer;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin-bottom: 4px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid #eee;
+}
+
+.tamm-icon-selector .icons .active {
+	background-color: #eee;
+}

@@ -1,0 +1,9 @@
+#product-360-view .rwmb-image-item {
+	max-width: 85px;
+	padding: 10px 5px;
+}
+
+#product-360-view .rwmb-image-item .rwmb-overlay {
+	left: 5px;
+	right: 5px;
+}

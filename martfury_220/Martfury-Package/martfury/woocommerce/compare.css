@@ -1,0 +1,314 @@
+h1 {
+  background-color: transparent;
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+  font-family: 'Work Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+h1 .close {
+  display: none;
+}
+
+body {
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+body ::-webkit-scrollbar {
+  background: transparent;
+  width: 10px;
+}
+body ::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+
+table.compare-list {
+  margin: 10px 0;
+  table-layout: fixed;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+table.compare-list th {
+  background-color: #f4f4f4;
+  border-left: 1px solid #ddd;
+}
+
+table.compare-list thead,
+table.compare-list tfoot {
+  display: none;
+}
+table.compare-list tr th,
+table.compare-list tr td,
+table.compare-list tr .price.repeated td {
+  padding: 20px;
+}
+table.compare-list tr th,
+table.compare-list tr td {
+  border-bottom: 1px solid #ddd;
+}
+table.compare-list .remove td {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+table.compare-list .remove td a {
+  color: #555;
+  text-decoration: none;
+}
+table.compare-list .remove td a .remove {
+  display: none;
+}
+table.compare-list .remove th {
+  border-bottom: none;
+}
+table.compare-list .image td {
+  border-bottom: none;
+}
+table.compare-list .image th {
+  border-bottom: none;
+}
+table.compare-list .title td {
+  border-bottom: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+table.compare-list .title th {
+  color: #fff;
+  font-size: 0;
+  border-bottom: none;
+}
+table.compare-list .price td {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  border-bottom: none;
+  padding-top: 0;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+table.compare-list .price .price {
+  font-size: 16px;
+  color: #000;
+  line-height: 1;
+  display: block;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+table.compare-list .price .amount + .amount {
+  padding-left: 5px;
+  padding-right: 0;
+}
+table.compare-list .price del {
+  display: inline-block;
+  padding-left: 5px;
+  opacity: 1;
+  color: #999;
+  font-size: 14px;
+}
+table.compare-list .price del span {
+  color: #999;
+}
+table.compare-list .price del .amount {
+  padding-top: 0;
+}
+table.compare-list .price ins {
+  text-decoration: none;
+  display: inline-block;
+  color: #ff3300;
+  font-size: 16px;
+  font-weight: 600;
+}
+table.compare-list .price ins .amount {
+  padding-top: 0;
+}
+table.compare-list .price th {
+  color: #fff;
+  font-size: 0;
+  border-bottom: none;
+}
+
+table.compare-list .price .sale {
+  display: none;
+}
+table.compare-list .price.repeated td {
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+}
+table.compare-list .price.repeated th {
+  color: #555;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+table.compare-list .add-to-cart td a {
+  padding: 0 25px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #88aa00;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+table.compare-list .add-to-cart td a.loading {
+ opacity: 0.2;
+}
+
+table.compare-list .description ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+table.compare-list .description ul li {
+  margin-bottom: 7px;
+}
+
+table.compare-list .add-to-cart td a:hover {
+  color: #fff;
+}
+table.compare-list .add-to-cart th {
+  color: #fff;
+  font-size: 0;
+}
+table.compare-list .description td {
+  line-height: 1.5;
+}
+table.compare-list .yith-woocompare-widget ul.products-list a.remove {
+  float: left;
+}
+table.compare-list .stock td span {
+  color: #b0d95e;
+}
+table.compare-list .stock td span.out-of-stock {
+  color: #aaa;
+  text-decoration: line-through;
+}
+table.compare-list tr th .fixed-th {
+  width: 195px;
+}
+table.compare-list tr th {
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+table.compare-list tr td.odd,
+table.compare-list tr td.even {
+  border-left: 1px solid #ddd;
+}
+table.compare-list tr td img {
+  background: none repeat scroll 0 0 #fff;
+  height: auto;
+  max-width: 100%;
+  padding: 5px;
+}
+
+table.compare-list tr td .image-wrap {
+  text-align: center;
+}
+
+table.compare-list tr.title {
+  color: #000;
+}
+
+.table-wrapper {
+  width: 100%;
+}
+.dataTables_scroll .dataTables_scrollHead table.compare-list {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.dataTables_scroll .dataTables_scrollBody table.compare-list {
+  border-left: 0;
+}
+.dataTables_scroll .dataTables_scrollFoot table.compare-list {
+  border: none;
+}
+.DTFC_LeftWrapper .DTFC_LeftBodyWrapper table.compare-list {
+  border-top: 0;
+  border-right: 0;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.DTFC_LeftWrapper .DTFC_LeftBodyWrapper table.compare-list .image th .fixed-th {
+  min-height: 154px;
+}
+.DTFC_LeftFootWrapper table.compare-list {
+  border: none;
+}
+
+
+.woocommerce .notifyjs-corner {
+  z-index: 9999;
+}
+.notifyjs-martfury-base {
+  font-weight: 400;
+  position: relative;
+  padding: 15px 40px 15px 60px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 4px 10px 0 rgba(3, 3, 3, 0.1);
+  box-shadow: 0 4px 10px 0 rgba(3, 3, 3, 0.1);
+  max-width: 450px;
+}
+.notifyjs-martfury-base .message-icon {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 20px;
+}
+.notifyjs-martfury-base .button.wc-forward {
+  display: none;
+}
+.notifyjs-martfury-base .btn-button {
+  padding-left: 5px;
+  color: #299c77;
+  text-decoration: underline;
+}
+.notifyjs-martfury-base .close {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-size: 10px;
+}
+.notifyjs-martfury-success {
+  color: #299c77;
+  background-color: #bff9d0;
+}
+.notifyjs-martfury-success .message-icon {
+  fill: #299c77;
+  stroke: #299c77;
+}
+.notifyjs-martfury-error {
+  color: #d45757;
+  background-color: #ffd0d0;
+}
+.notifyjs-martfury-error .message-icon {
+  fill: #d45757;
+  stroke: #d45757;
+}
+.notifyjs-martfury-error li {
+  list-style: none;
+}
+.notifyjs-martfury-error .btn-button {
+  color: #d45757;
+}

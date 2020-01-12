@@ -1,0 +1,62 @@
+.woocommerce .deal {
+	margin-bottom: 1em;
+}
+
+.woocommerce .deal-expire-text,
+.woocommerce .deal-sold-text {
+	margin-bottom: 0.5em;
+}
+
+.woocommerce .deal-progress .progress-bar,
+.woocommerce .deal-progress .progress-value {
+	height: 20px;
+}
+
+.woocommerce .deal-progress .progress-bar {
+	position: relative;
+	background: #e4e4e4;
+}
+
+.woocommerce .deal-progress .progress-value {
+	background: #fcb800;
+}
+
+.woocommerce .deal-expire-date {
+	margin-bottom: 1em;
+}
+
+.woocommerce .deal-expire-countdown {
+	overflow: hidden;
+}
+
+.woocommerce .deal-expire-countdown .timer,
+.woocommerce .deal-expire-countdown .divider {
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+.woocommerce .deal-expire-countdown .timer {
+	width: 20%;
+}
+
+.woocommerce .deal-expire-countdown .divider {
+	font-size: 1.8em;
+	width: 6.3333%;
+	padding-top: 0.3em;
+}
+
+.woocommerce .deal-expire-countdown .timer span {
+	display: block;
+}
+
+.woocommerce .deal-expire-countdown .timer .digits {
+	font-size: 1.8em;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	border: 1px solid #e4e4e4;
+}
+
+.woocommerce .deal-expire-countdown .timer .text {
+	font-size: 0.8em;
+}

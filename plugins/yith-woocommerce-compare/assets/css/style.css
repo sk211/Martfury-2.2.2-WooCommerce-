@@ -1,0 +1,219 @@
+/**
+ * The style of the woocommerce compare products
+ */
+
+/* ###############
+FIXED COLUMNS
+##############*/
+
+table.DTFC_Cloned thead, table.DTFC_Cloned tfoot{
+    background-color:white;
+}
+div.DTFC_Blocker{
+    background-color:white;
+}
+div.DTFC_LeftWrapper table.dataTable,
+div.DTFC_RightWrapper table.dataTable{
+    margin-bottom:0;
+    z-index:2;
+}
+div.DTFC_LeftWrapper table.dataTable.no-footer,
+div.DTFC_RightWrapper table.dataTable.no-footer{
+    border-bottom:none;
+}
+
+/*############################
+ * COMPARE
+#############################*/
+
+body {
+    font-family: 'Open Sans', san-serif;
+    font-size: 13px;
+    line-height: 1.51em;
+    color: #747373;
+    background: none !important;
+    margin: 0;
+}
+
+body h1 {
+    background: #4F4F4F;
+    color: #fff;
+    font-weight: 800;
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.076em;
+    margin: 0;
+    text-align: center;
+}
+
+body #yith-woocompare {
+    padding: 10px;
+}
+
+table.dataTable.compare-list thead th,
+table.dataTable.compare-list thead td,
+table.dataTable.compare-list tfoot td,
+table.dataTable.compare-list tfoot th {
+    border: 0;
+    vertical-align: middle;
+}
+.DTFC_LeftFootWrapper table.compare-list,
+.DTFC_LeftHeadWrapper table.compare-list {
+    border: 0;
+}
+
+table.compare-list td {
+    width: 220px;
+    max-width: 220px;
+    min-width: 220px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.compare-list {
+    width: 100%;
+    border-bottom: 0;
+    border-top: 0;
+    margin: 0;
+    table-layout: auto;
+}
+
+table.compare-list tbody th {
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    overflow: hidden;
+    text-align: left;
+    color: #333333;
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.rtl table.compare-list tbody th {
+    text-align: right;
+}
+
+table.dataTable.compare-list tbody th,
+table.dataTable.compare-list tbody td {
+    border-right: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: none;
+    border-left: none;
+    padding: 10px;
+    vertical-align: middle;
+}
+table.dataTable.compare-list tbody tr:last-child th,
+table.dataTable.compare-list tbody tr:last-child td {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+table.compare-list tbody td.last-column {
+    width: auto;
+    border-right: 0;
+}
+
+table.compare-list tr.image td,
+table.compare-list tr.image th {
+    border-top: 0;
+}
+
+#yith-woocompare-table_wrapper {
+    margin: 10px 0;
+}
+
+table.dataTable.compare-list tbody .product_info td {
+    vertical-align: top;
+}
+
+table.compare-list thead th a.close, h1 a.close {
+    float: right;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;
+}
+
+table.compare-list .remove td a {
+    color: #747373;
+    text-decoration: none;
+}
+
+table.compare-list .remove td a:hover {
+    color: #333333;
+}
+
+table.compare-list .remove td a .remove {
+    border-radius: 100% 100% 100% 100%;
+    color: red;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 600;
+    height: 1em;
+    line-height: 0.81em;
+    text-align: center;
+    text-decoration: none;
+    width: 1em;
+}
+
+.yith-woocompare-widget ul.products-list a.remove {
+    float: left;
+}
+
+table.compare-list .remove td a:hover .remove {
+    background-color: red;
+    color: #ffffff;
+}
+
+table.compare-list .add-to-cart td a {
+    display: inline-block;
+    margin: 10px 0;
+    background-color: #4F4F4F;
+    border: 0 none;
+    color: #FFFFFF;
+    font-weight: normal;
+    line-height: normal;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+table.compare-list .add-to-cart td a:hover {
+    background: #868686;
+    color: #fff;
+}
+
+table.compare-list .stock td span {
+    color: #009900;
+}
+
+table.compare-list .stock td span.out-of-stock {
+    color: #990000;
+}
+
+table.compare-list .price td {
+    text-decoration: underline;
+}
+
+table.compare-list td.odd {
+    background: #F7F7F7;
+}
+
+table.compare-list td.even {
+    background: #fff;
+}
+
+table.compare-list td img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DADADA;
+    height: auto;
+    max-width: 100%;
+    padding: 3px;
+    margin-bottom: 20px;
+    max-width: none;
+}

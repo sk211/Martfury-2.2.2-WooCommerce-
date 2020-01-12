@@ -1,0 +1,111 @@
+.martfury-journey-els {
+	ul {
+		position: relative;
+		list-style: none;
+		padding-left: 0;
+		display: flex;
+		justify-content: space-between;
+		width: calc(~'100% - 130px');
+		margin: auto;
+
+		&:after {
+			content: '';
+			width: calc(~'100% - 40px');
+			height: 5px;
+			position: absolute;
+			bottom: 12px;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: #ccc;
+			z-index: 5;
+		}
+
+		li {
+			margin-bottom: 0;
+		}
+
+		a {
+			font-size: 18px;
+			color: #000;
+			font-weight: 600;
+			position: relative;
+			display: block;
+			padding-bottom: 45px;
+
+			span {
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 30px;
+				height: 30px;
+				background-color: #ccc;
+				border: 5px solid #ccc;
+				border-radius: 50%;
+				transition: 0.5s;
+				z-index: 9;
+			}
+
+			&.active,
+			&:hover {
+				span {
+					background-color: @primary-color;
+				}
+			}
+		}
+	}
+
+	.journey-content {
+		padding-top: 70px;
+	}
+
+	.journey-wrapper {
+		padding: 30px;
+		background-color: #fff;
+		opacity: 0;
+		max-width: 500px;
+		position: absolute;
+		border-radius: 3px;
+		transition: 0.5s;
+
+		.journey-title {
+			font-size: 20px;
+			color: #000;
+			font-weight: 400;
+			margin-bottom: 4px;
+		}
+
+		.avatar {
+			float: left;
+
+			img {
+				border-radius: 50%;
+			}
+		}
+
+		.info {
+			padding-left: 120px;
+		}
+
+		&.active {
+			opacity: 1;
+		}
+
+		&:before {
+			content: '';
+			border-width: 0 11px 44px 11px;
+			border-style: solid;
+			border-color: transparent transparent #fff transparent;
+			position: absolute;
+			bottom: 100%;
+			left: 75px;
+		}
+
+		&.reverse {
+			&:before {
+				left: auto;
+				right: 75px;
+			}
+		}
+	}
+}

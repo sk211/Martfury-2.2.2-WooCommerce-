@@ -1,0 +1,105 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">image</custom-field>
+        <custom-field action="copy">images</custom-field>
+        <custom-field action="copy">desc</custom-field>
+        <custom-field action="copy">video</custom-field>
+        <custom-field action="copy">url</custom-field>
+        <custom-field action="copy">url_text</custom-field>
+        <custom-field action="copy">quote</custom-field>
+        <custom-field action="copy">quote_author</custom-field>
+        <custom-field action="copy">author_url</custom-field>
+        <custom-field action="copy">status</custom-field>
+        <custom-field action="copy">audio</custom-field>
+        <custom-field action="copy">heading_style</custom-field>
+        <custom-field action="copy">custom_style</custom-field>
+        <custom-field action="copy">post_style</custom-field>
+        <custom-field action="copy">post_header_bg</custom-field>
+        <custom-field action="copy">custom_layout</custom-field>
+        <custom-field action="copy">layout</custom-field>
+        <custom-field action="copy">custom_page_header</custom-field>
+        <custom-field action="copy">hide_page_header</custom-field>
+        <custom-field action="copy">hide_breadcrumb</custom-field>
+        <custom-field action="copy">hide_title</custom-field>
+        <custom-field action="copy">video_url</custom-field>
+        <custom-field action="copy">video_thumbnail</custom-field>
+        <custom-field action="copy">product-360-view</custom-field>
+        <custom-field action="translate">custom_badges_text</custom-field>
+        <custom-field action="translate">product_instagram_hashtag</custom-field>
+        <custom-field action="copy">mf_pbt_product_ids</custom-field>
+    </custom-fields>
+
+    <admin-texts>
+        <key name="theme_mods_martfury">
+            <key name="logo"/>
+            <key name="newsletter_content"/>
+            <key name="newsletter_form"/>
+            <key name="promotion_content"/>
+            <key name="promotion_button_text"/>
+            <key name="promotion_button_link"/>
+            <key name="logo_width"/>
+            <key name="logo_height"/>
+            <key name="custom_department_text"/>
+            <key name="custom_department_link"/>
+            <key name="custom_categories_text"/>
+            <key name="custom_search_text"/>
+            <key name="custom_search_button"/>
+            <key name="header_recently_viewed_title"/>
+            <key name="header_recently_viewed_link_url"/>
+            <key name="catalog_categories_list_title_2"/>
+            <key name="catalog_featured_new_text_2"/>
+            <key name="catalog_featured_best_seller_text_2"/>
+            <key name="catalog_other_categories_title_2"/>
+            <key name="product_fbt_title"/>
+            <key name="instagram_token"/>
+            <key name="product_instagram_title"/>
+            <key name="product_upsells_title"/>
+            <key name="product_related_title"/>
+            <key name="related_posts_title"/>
+            <key name="footer_newsletter_text"/>
+            <key name="footer_newsletter_form"/>
+            <key name="footer_copyright"/>
+            <key name="footer_payment_text"/>
+            <key name="footer_recently_viewed_title"/>
+            <key name="footer_recently_viewed_link_text"/>
+            <key name="footer_recently_viewed_link_url"/>
+            <key name="product_deals_expire_text"/>
+            <key name="product_deals_sold_text"/>
+            <key name="product_specification_text"/>
+            <key name="product_description_text"/>
+            <key name="product_buy_now_text"/>
+            <key name="product_buy_now_link"/>
+            <key name="login_promotion_title"/>
+            <key name="login_promotion_text"/>
+            <key name="login_promotion_list"/>
+            <key name="login_ads_title"/>
+            <key name="login_ads_text"/>
+            <key name="footer_info_list">
+                <key name="0">
+                    <key name="icon"/>
+                    <key name="title"/>
+                    <key name="desc"/>
+                </key>
+                <key name="1">
+                    <key name="icon"/>
+                    <key name="title"/>
+                    <key name="desc"/>
+                </key>
+                <key name="2">
+                    <key name="icon"/>
+                    <key name="title"/>
+                    <key name="desc"/>
+                </key>
+                <key name="3">
+                    <key name="icon"/>
+                    <key name="title"/>
+                    <key name="desc"/>
+                </key>
+            </key>
+            <key name="navigation_home_mobile"/>
+            <key name="navigation_cat_mobile"/>
+            <key name="navigation_search_mobile"/>
+            <key name="navigation_cart_mobile"/>
+        </key>
+    </admin-texts>
+</wpml-config>

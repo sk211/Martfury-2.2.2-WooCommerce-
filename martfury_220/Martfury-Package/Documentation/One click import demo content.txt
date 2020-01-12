@@ -1,0 +1,2 @@
+Read our documentation to know how to import the demo content
+http://docs.drfuri.com/martfury/one-click-import-demo-content/

@@ -1,0 +1,193 @@
+.woocommerce div.product {
+    .wc-tabs-wrapper .panel {
+        .product-vendor {
+            h2 {
+                font-weight: 600;
+                margin: 0 0 20px;
+                font-size: 24px;
+            }
+
+            a {
+                color: @dark;
+            }
+        }
+
+        .wcmp-product-policies {
+            .wcmp_policies_heading {
+                font-weight: 600;
+                font-size: 24px;
+            }
+
+            .wcmp_policies_description strong {
+                font-weight: 400;
+            }
+        }
+
+        div.rowhead {
+            background-color: #f4f4f4;
+
+            .rowsub {
+                font-size: 14px;
+                color: #666666;
+                text-transform: uppercase;
+                min-height: 30px;
+                line-height: 30px;
+            }
+        }
+
+        .wcmp_multiple_product_sorting {
+            padding: 5px;
+        }
+
+        div.rowbody {
+            background-color: transparent;
+
+            .vendor_name {
+                font-size: 16px;
+                font-weight: 600;
+                text-transform: uppercase;
+
+                .wcmp_seller_name {
+                    color: @dark;
+                }
+            }
+
+            .star-rating {
+                float: none;
+                margin-top: 5px;
+            }
+
+            .rowsub {
+                ins .woocommerce-Price-amount {
+                    font-size: 24px;
+                    color: #ff3300;
+                    text-decoration: none;
+                    font-weight: 600;
+                }
+
+                del .woocommerce-Price-amount {
+                    font-size: 14px;
+                    color: #666;
+                    font-weight: 500;
+                }
+
+                .sale {
+                    display: none;
+                }
+
+                .button {
+                    .btn-small();
+
+                    &:nth-child(2) {
+                        background-color: transparent;
+                        border: 1px solid #999;
+                        color: @dark;
+                    }
+                }
+            }
+        }
+    }
+
+    .goto_more_offer_tab.button {
+        display: inline-block;
+        margin-top: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: -0.5px;
+        color: @dark;
+        background-color: transparent;
+        padding: 0;
+        position: relative;
+        height: auto;
+        line-height: 1;
+
+        &:after {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            transition: 0.5s;
+            height: 1px;
+            background-color: @dark;
+            content: "";
+        }
+
+        &:hover {
+            &:after {
+                width: 100%;
+                left: 0;
+                right: auto;
+            }
+        }
+
+    }
+}
+
+.wcmp_regi_main {
+    .register {
+        .reg_header1,
+        .wcmp_regi_form_box label {
+            color: @dark;
+            font-weight: 600;
+        }
+
+        .wcmp_regi_form_box {
+            box-shadow: none;
+            padding: 0;
+
+            .wcmp-regi-12 {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            input[type=text], input[type=url], input[type=password], input[type=email], input[type=file], textarea {
+                border: 1px solid #d9d9d9;
+                font-family: @font-family-primary !important;
+                background-color: transparent;
+            }
+        }
+
+        .button {
+            .btn-secondary();
+        }
+
+        .reg_header2 {
+            border-bottom: 1px solid #ccc;
+            color: @dark;
+            font-weight: 600;
+            margin-top: 40px;
+        }
+
+    }
+}
+
+.mf-vendor-dashboard-page .mf-els-modal-mobile {
+    display: none;
+}
+
+#wcmp-store-conatiner {
+
+    form {
+        input[type="submit"] {
+            .btn-secondary();
+            height: 44px;
+            line-height: 44px;
+        }
+
+        .wcmp-store-map-filter {
+            background-color: transparent;
+            padding: 30px 0;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+
+    div.wcmp-store-map-pagination {
+        padding: 20px 0;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+.woocommerce-Tabs-panel--singleproductmultivendor, .woocommerce-tabs .tab-panels {
+    clear: both;
+}

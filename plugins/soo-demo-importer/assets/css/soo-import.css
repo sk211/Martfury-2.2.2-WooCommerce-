@@ -1,0 +1,143 @@
+.demos-container {
+	overflow: hidden;
+	text-align: center;
+}
+
+.demo-selector {
+	display: inline-block;
+	width: 20%;
+	border: 1px solid #dedede;
+	margin: 0 3% 3% 0;
+	position: relative;
+}
+
+.demo-image {
+	position: relative;
+}
+
+.demo-image img {
+	width: 100%;
+	display: block;
+}
+
+.demo-selector-tools {
+	position: relative;
+	border-top: 1px solid #dedede;
+	background-color: rgba(255,255,255,.65)
+}
+
+.demo-install-actions {
+	position: relative;
+	z-index: 2;
+}
+
+.demo-selector-tools .button {
+	float: right;
+}
+
+.demo-selector-tools .button {
+	margin: 10px 15px 10px 0;
+}
+
+.demo-title {
+	font-size: 15px;
+	font-weight: 600;
+	text-align: left;
+	margin: 0;
+	padding: 15px;
+}
+
+#soo-demo-import-progress .spinner {
+	float: left;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.soo-demo-log {
+	display: none;
+}
+
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.martfury-tabs .tabs-nav {
+	margin: 50px 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	text-align: center;
+}
+
+.martfury-tabs .tabs-nav li {
+	float: none;
+	display: inline-block;
+}
+
+.martfury-tabs .tabs-nav a {
+	display: block;
+	font-size: 24px;
+	padding: 0 22px;
+	font-weight: 700;
+	color: #cccccc;
+	text-decoration: none;
+}
+
+.martfury-tabs .tabs-nav a:focus ,
+.martfury-tabs .tabs-nav a:active {
+	outline: 0;
+	box-shadow: none;
+}
+
+.martfury-tabs .tabs-nav a.active {
+	color: #000;
+}
+
+.martfury-tabs .tabs-content {
+	position: relative;
+}
+
+.martfury-tabs .tabs-panel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 0.2s ease;
+	transform: translateY(10px);
+}
+
+.martfury-tabs .tabs-panel.active {
+	position: relative;
+	z-index: 2;
+	opacity: 1;
+	top: 0;
+	transform: translateY(0);
+	transition: all 0.2s ease;
+	transition-delay: 0.1s;
+}

@@ -1,0 +1,298 @@
+.nav {
+	a {
+		color: @gray;
+		font-size: 14px;
+		display: inline-block;
+		position: relative;
+
+		&:hover {
+			text-decoration: none;
+			color: @dark;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+
+		ul {
+			transition: top 0.3s ease 0s, opacity 0.3s;
+			position: absolute;
+			left: 0;
+			top: 110%;
+			width: auto;
+			min-width: 200px;
+			border: 1px solid #ccc;
+			background-color: @light;
+			opacity: 0;
+			z-index: -1;
+			padding: 10px 0;
+			transform: scaleX(0);
+			display: block;
+			border-radius: 0;
+			box-shadow: none;
+
+			ul {
+				transition: left 0.3s ease 0s, opacity 0.3s;
+				left: 110%;
+				top: 0;
+				box-shadow: none;
+				padding: 10px 0;
+				border-top: 1px solid #ccc;
+			}
+		}
+
+	}
+
+	li {
+		display: inline-block;
+		padding: 10px 22px;
+		position: relative;
+		text-align: left;
+		margin: 0;
+
+		&:hover > ul {
+			opacity: 1;
+			z-index: 999;
+			top: 100%;
+			transform: scaleX(1);
+		}
+
+		li {
+			text-align: left;
+			display: block;
+			padding: 0 30px;
+
+			a {
+				color: @dark;
+				font-size: 14px;
+				padding: 8px 0;
+				text-transform: none;
+				transition: 0.5s;
+				display: inline-block;
+				position: relative;
+				background-color: transparent;
+				white-space: nowrap;
+				line-height: 1;
+
+				.items-badge {
+					position: absolute;
+					right: 0;
+					top: 8px;
+
+					& > span {
+						position: absolute;
+						left: 0;
+						top: 0;
+						opacity: 0;
+						margin-left: 10px;
+
+						&:last-child {
+							opacity: 1;
+						}
+					}
+				}
+
+				&:hover {
+					color: @primary-color;
+					background-color: transparent;
+				}
+			}
+
+			&:hover > ul {
+				top: -10px;
+				left: 100%;
+
+				li {
+					a:hover {
+						&:before {
+							left: -30px;
+						}
+					}
+
+				}
+			}
+
+			&:first-child > a {
+				border-top-width: 0;
+			}
+		}
+
+		& > ul {
+			left: -10px;
+		}
+	}
+
+	& > .menu > li {
+		&:first-child {
+			& > ul {
+				left: -30px;
+			}
+		}
+	}
+
+	// Style for mega menu
+	.menu {
+		.is-mega-menu {
+			position: static;
+
+			&.has-width {
+				position: relative;
+			}
+
+			&:hover {
+				.dropdown-submenu {
+					transform: translateX(-50%) scale(1);
+
+					&.alignment {
+						transform: scale(1);
+					}
+				}
+
+				&.align-left,
+				&.align-right {
+					.dropdown-submenu {
+						transform: scale(1);
+					}
+				}
+			}
+
+			&.align-left {
+				.dropdown-submenu {
+					left: 0;
+					transform: scale(0);
+				}
+			}
+
+			&.align-right {
+				.dropdown-submenu {
+					right: 0;
+					left: auto;
+					transform: scale(0);
+				}
+			}
+
+			.dropdown-submenu {
+				left: 50%;
+				transform: translateX(-50%) scale(0);
+				width: 100%;
+				padding: 0;
+
+				& > li {
+					padding: 0;
+				}
+
+				.mega-menu-content {
+					padding: 25px 30px 10px;
+
+					& > .row {
+						display: flex;
+						flex-wrap: wrap;
+
+						&:after,
+						&:before {
+							display: none;
+						}
+					}
+				}
+
+				.menu-item-mega {
+
+					a {
+						white-space: normal;
+
+						&.is-label {
+							color: #000;
+							font-size: 16px;
+							margin: 20px 0 0;
+							padding: 0 0 7px;
+							font-weight: 600;
+						}
+					}
+
+					& > a {
+						color: @dark;
+						font-size: 16px;
+						margin: 0;
+						padding: 0 0 7px;
+						font-weight: 600;
+
+						&.hide-text {
+							display: none;
+						}
+
+						&.visible-text {
+							visibility: hidden;
+						}
+
+					}
+
+					.sub-menu {
+						background-color: transparent;
+						.sub-menu {
+							margin-left: 10px;
+							padding-bottom: 0;
+						}
+					}
+
+				}
+
+				.mega-menu-submenu {
+					.sub-menu {
+						position: static;
+						transform: scaleX(1);
+						opacity: 1;
+						width: 100%;
+						border: none;
+						z-index: 9999;
+						min-width: inherit;
+
+						li {
+							padding: 0;
+
+							&:first-child {
+								& > a {
+									padding-top: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			&:hover {
+				.mega-menu-container {
+					opacity: 1;
+					top: 100%;
+					z-index: 9999;
+					transform: scaleX(1);
+				}
+			}
+
+			.sub-menu {
+				transform: scaleX(1);
+
+			}
+
+		}
+
+		.hot-badge,
+		.new-badge,
+		.trending-badge {
+			font-size: 12px;
+			color: #cc3333;
+			font-weight: 500;
+			background-color: transparent;
+
+		}
+
+		.hot-badge {
+			color: #f08a47;
+		}
+
+		.trending-badge {
+			color: #0099cc;
+		}
+	}
+}

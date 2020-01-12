@@ -1,0 +1,433 @@
+.page-header {
+    margin: 0;
+    border-bottom: none;
+    padding-top: 95px;
+    padding-bottom: 95px;
+
+    .entry-title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1;
+        margin: 0 0 20px;
+    }
+
+    .breadcrumbs {
+        color: @primary-color;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+
+        .sep,
+        a {
+            color: @dark;
+        }
+
+        .sep {
+            margin: 0 5px;
+        }
+
+        li {
+            display: inline-block;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.page-header-sliders {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .page-header-inner {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slick-list,
+    .slick-track {
+        height: 100%;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+
+        li {
+            list-style: none;
+            height: 100%;
+            position: relative;
+            margin-bottom: 0;
+
+            .featured-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: -1;
+                background-position: center;
+
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    content: "";
+                }
+            }
+
+            .link {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 10;
+            }
+
+            .page-header-content {
+                max-width: 800px;
+                margin: 0 auto;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                padding: 150px 0;
+                color: @light;
+                text-align: center;
+                font-size: 16px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+
+            .title {
+                font-size: 48px;
+                font-weight: 600;
+                color: @light;
+                line-height: 1;
+                margin: 55px 0 30px;
+            }
+
+            .desc {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .slick-arrow-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        pointer-events: none;
+
+        .slick-arrow-cont {
+            position: relative;
+            height: 100%;
+        }
+
+        .slick-arrow {
+            width: 48px;
+            height: 48px;
+            line-height: 50px;
+            text-align: center;
+            background-color: rgba(204, 204, 204, 0.5);
+            transition: 0.5s;
+            cursor: pointer;
+            color: @dark;
+            font-size: 18px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            pointer-events: auto;
+
+            &:hover {
+                background-color: rgba(204, 204, 204, 1);
+            }
+        }
+
+        .slick-next-arrow {
+            right: 0;
+            left: auto;
+        }
+    }
+}
+
+.mf-blog-page {
+    .page-header-blog.layout-1 {
+        padding-bottom: 5px;
+
+        .breadcrumbs {
+            justify-content: center;
+        }
+    }
+
+    .page-header-blog.hide-title {
+        padding: 0;
+
+        .entry-title {
+            line-height: 0;
+            text-indent: -9999px;
+        }
+    }
+
+    &.has-blog-cats {
+        .page-header-blog.layout-1 {
+            padding-bottom: 30px;
+        }
+        .site-content {
+            padding-top: 50px;
+        }
+
+    }
+}
+
+.single-post-header {
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+    .entry-title {
+        font-size: 48px;
+        font-weight: 600;
+        max-width: 770px;
+        margin: 0 auto;
+        line-height: 1;
+    }
+
+    .entry-metas {
+        margin-top: 30px;
+        font-size: 16px;
+        color: @gray;
+
+        a {
+            color: #191918;
+
+            &:hover {
+                color: @primary-color;
+            }
+        }
+
+        .sep {
+            color: #191918;
+        }
+
+    }
+
+    &.layout-1 {
+        padding-bottom: 20px;
+    }
+
+    &.layout-2 {
+        position: relative;
+        padding-top: 180px;
+        padding-bottom: 180px;
+
+        .featured-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-position: center;
+            z-index: -1;
+            background-attachment: fixed;
+        }
+
+        .cat-links {
+            margin-bottom: 40px;
+
+            a {
+                font-size: 18px;
+                text-transform: uppercase;
+                color: @dark;
+                font-weight: 600;
+            }
+        }
+
+        &.has-bg {
+            .cat-links a {
+                color: @light;
+            }
+
+            .featured-image {
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    content: "";
+                    background-color: rgba(0, 0, 0, 0.3);
+                    z-index: -1;
+                }
+            }
+
+            .entry-title {
+                color: @light;
+            }
+
+            .entry-metas {
+                color: @light;
+
+                a {
+                    color: @light;
+
+                    &:hover {
+                        color: @primary-color;
+                    }
+                }
+
+                .sep {
+                    color: @light;
+                }
+
+            }
+        }
+    }
+
+    &.layout-3 {
+        padding-top: 130px;
+        padding-bottom: 0;
+    }
+}
+
+.page-header-catalog {
+    padding-top: 0;
+    padding-bottom: 0;
+    .page-title {
+        background-color: @primary-color;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .entry-title {
+            font-size: 30px;
+            margin: 0;
+        }
+
+        &.hide-title {
+            padding: 0;
+
+            .entry-title {
+                line-height: 0;
+                text-indent: -9999px;
+            }
+        }
+    }
+
+    .page-breadcrumbs {
+        background-color: #f1f1f1;
+
+        .breadcrumbs {
+            color: @dark;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        a {
+            color: #0099cc;
+
+            &:hover {
+                color: @primary-color;
+            }
+        }
+    }
+}
+
+.mf-catalog-layout-3 {
+    .page-header-catalog {
+        padding-top: 0;
+        padding-bottom: 0;
+        .page-title {
+            padding: 0;
+
+            .entry-title {
+                line-height: 0;
+                text-indent: -9999px;
+            }
+        }
+    }
+}
+
+.page-header-page {
+    padding-top: 0;
+    padding-bottom: 0;
+    .entry-title {
+        padding-top: 115px;
+        padding-bottom: 25px;
+        font-size: 48px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    &.hide-title {
+        .entry-title {
+            line-height: 0;
+            text-indent: -9999px;
+            padding: 0;
+        }
+    }
+
+    .page-breadcrumbs {
+        background-color: #f1f1f1;
+
+        .breadcrumbs {
+            color: @dark;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        a {
+            color: #0099cc;
+
+            &:hover {
+                color: @primary-color;
+            }
+        }
+    }
+}
+
+.woocommerce-account {
+    .page-header-page .entry-title {
+        background-color: #f1f1f1;
+    }
+
+    &.logged-in {
+        .page-header-page .entry-title {
+            background-color: transparent;
+
+        }
+    }
+}
+
+.page-header-default {
+    padding-top: 0;
+    padding-bottom: 0;
+    .page-breadcrumbs {
+        background-color: #f1f1f1;
+
+        .breadcrumbs {
+            color: @dark;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        a {
+            color: #0099cc;
+
+            &:hover {
+                color: @primary-color;
+            }
+        }
+    }
+}

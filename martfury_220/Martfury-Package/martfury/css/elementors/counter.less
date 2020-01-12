@@ -1,0 +1,42 @@
+.martfury-counter-els {
+	display: flex;
+	align-items: center;
+
+	.mf-icon {
+		color: @primary-color;
+		display: block;
+		font-size: 72px;
+	}
+
+	.counter {
+		font-size: 48px;
+		color: #000;
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+
+	h4 {
+		font-size: 16px;
+		color: #666;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-weight: 400;
+	}
+
+	&.mf-icon--left {
+
+	}
+
+	&.mf-icon--center {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	&.mf-icon--right {
+		flex-direction: row-reverse;
+
+		.counter-content {
+			text-align: right;
+		}
+	}
+}

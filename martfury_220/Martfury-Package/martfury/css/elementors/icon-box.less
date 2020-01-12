@@ -1,0 +1,65 @@
+.mf-elementor-icon-box {
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+
+	&.align-icon-left {
+
+	}
+
+	&.align-icon-center {
+		flex-direction: column;
+
+		.box-wrapper {
+			text-align: center;
+		}
+
+		.mf-icon-area {
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	&.align-icon-right {
+		flex-direction: row-reverse;
+
+		.box-wrapper {
+			text-align: right;
+		}
+	}
+
+	.box-img {
+
+	}
+
+	.box-icon {
+		color: @primary-color;
+		line-height: 1;
+
+		i {
+			font-size: 40px;
+		}
+	}
+
+	.box-title {
+		font-size: 18px;
+		font-weight: 500;
+		margin-bottom: 0;
+		margin-top: 0;
+		color: #000;
+
+		a {
+			color: #000;
+		}
+	}
+
+	.box-url {
+		color: #000;
+		text-decoration: underline;
+		display: inline-block;
+
+		&:hover {
+			color: @primary-color;
+		}
+	}
+}

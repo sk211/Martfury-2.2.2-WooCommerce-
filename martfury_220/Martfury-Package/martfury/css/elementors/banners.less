@@ -1,0 +1,247 @@
+.mf-elementor-banner-small {
+	.banner-content {
+		padding: 25px 30px 25px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		position: relative;
+		z-index: 10;
+	}
+
+	.banner-title {
+		font-weight: 400;
+		font-size: 24px;
+		margin: 0 0 10px;
+		line-height: 1;
+		white-space: pre-line;
+	}
+
+	.banner-desc {
+		margin-bottom: 0;
+		font-size: 12px;
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	.banner-price {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		overflow: hidden;
+		background-color: #f14705;
+		color: @light;
+		text-align: center;
+		line-height: 1;
+
+		.s-price {
+			font-size: 18px;
+			font-weight: 600;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			right: 0;
+			transform: translateY(-50%);
+			text-align: center;
+			line-height: 1;
+			display: block;
+
+			span {
+				font-size: 12px;
+				display: block;
+			}
+		}
+	}
+
+	.banner-featured-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-size: cover;
+		background-position: left top;
+		background-color: #f8f8f8;
+		background-repeat: no-repeat;
+	}
+
+	.link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 20;
+	}
+}
+
+.mf-elementor-banner-medium {
+	.banner-content {
+		padding: 25px 30px 25px;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		z-index: 10;
+	}
+
+	.banner-title {
+		font-weight: 300;
+		font-size: 24px;
+		margin: 0 0 10px;
+		line-height: 1.2;
+		white-space: pre-line;
+
+		.hl-title {
+			font-weight: 600;
+		}
+	}
+
+	&.highlight-title-above,
+	&.highlight-title-under {
+		.banner-title {
+			.hl-title {
+				display: block;
+			}
+		}
+	}
+
+	.banner-desc {
+		margin-bottom: 30px;
+		font-size: 16px;
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	.banner-featured-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-size: cover;
+		background-position: left top;
+		background-color: #f8f8f8;
+		background-repeat: no-repeat;
+	}
+
+	.link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 20;
+	}
+
+	.btn-button {
+		transition: all .5s;
+		color: #000;
+		font-size: 16px;
+		font-weight: 600;
+		text-align: center;
+		padding: 10px 17px;
+		display: inline-block;
+		border-radius: 4px;
+		white-space: normal;
+		line-height: 1;
+		border-style: solid;
+		border-width: 0;
+		background-color: #fcb800;
+	}
+}
+
+.mf-elementor-banner-large {
+	.banner-content {
+		padding: 25px 20px 0;
+		display: flex;
+		align-items: center;
+		position: relative;
+		z-index: 10;
+	}
+
+	.banner-left-content {
+		margin-right: 88px;
+	}
+
+	.banner-title {
+		font-size: 36px;
+		font-weight: 300;
+		line-height: 1;
+		margin: 0 0 18px;
+		white-space: pre-line;
+
+		.hl-title {
+			font-weight: 600;
+			color: #f30;
+		}
+	}
+
+	.banner-desc {
+		color: #999;
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	.banner-sale-price {
+		color: #999;
+		font-size: 16px;
+		text-decoration: line-through;
+		display: block;
+		line-height: 1;
+		margin-bottom: 8px;
+	}
+
+	.banner-regular-price {
+		font-size: 30px;
+		display: block;
+		color: #690;
+		line-height: 1;
+		margin-bottom: 20px;
+	}
+
+	.banner-featured-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-size: cover;
+		background-position: left top;
+		background-color: #f8f8f8;
+		background-repeat: no-repeat;
+	}
+
+	.btn-button {
+		transition: all .5s;
+		color: #000;
+		font-size: 16px;
+		font-weight: 600;
+		text-align: center;
+		padding: 10px 17px;
+		display: inline-block;
+		border-radius: 4px;
+		white-space: normal;
+		line-height: 1;
+		border-style: solid;
+		border-width: 0;
+		background-color: #fcb800;
+	}
+
+	.link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 20;
+	}
+}

@@ -1,0 +1,84 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Deals\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-08 04:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/class-admin.php:57
+#, php-format
+msgid "%s product is sold"
+msgid_plural "%s products are sold"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Description of the plugin
+msgid "A WooCommerce's extension. Make sale products become deals."
+msgstr ""
+
+#: includes/class-frontend.php:44
+msgid "Days"
+msgstr ""
+
+#: includes/class-frontend.php:120
+msgid "Expires in"
+msgstr ""
+
+#: includes/class-frontend.php:45
+msgid "Hours"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://themealien.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://themealien.com/wordpress-plugin/woocommerce-deals"
+msgstr ""
+
+#: includes/class-frontend.php:46
+msgid "Minutes"
+msgstr ""
+
+#: includes/class-admin.php:51
+msgid "Sale quantity"
+msgstr ""
+
+#: includes/class-frontend.php:47
+msgid "Seconds"
+msgstr ""
+
+#: includes/class-admin.php:52
+msgid ""
+"Set this quantity will make the product to be a deal. The sale will end when "
+"this quantity is sold out."
+msgstr ""
+
+#: includes/class-shortcodes.php:196
+msgid "Sold"
+msgstr ""
+
+#: templates/single-product/deal.php:32
+msgid "sold"
+msgstr ""
+
+#: includes/class-frontend.php:121
+msgid "Sold items"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeAlien"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Deals"
+msgstr ""
